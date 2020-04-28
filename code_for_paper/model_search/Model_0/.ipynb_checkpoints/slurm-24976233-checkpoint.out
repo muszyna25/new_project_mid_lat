@@ -1,0 +1,29 @@
+[+] ------START TIME (ST): Wed Oct  2 16:51:27 PDT 2019------
+Start cluster...
+Launching controller
+2019-10-02 16:51:35.185 [IPControllerApp] Hub listening on tcp://10.128.33.164:39265 for registration.
+2019-10-02 16:51:35.197 [IPControllerApp] Hub using DB backend: 'DictDB'
+2019-10-02 16:51:35.459 [IPControllerApp] hub::created hub
+2019-10-02 16:51:35.460 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24976233-client.json
+2019-10-02 16:51:35.491 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24976233-engine.json
+2019-10-02 16:51:35.513 [IPControllerApp] task::using Python leastload Task scheduler
+2019-10-02 16:51:35.515 [IPControllerApp] Heartmonitor started
+2019-10-02 16:51:35.564 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_24976233.pid
+2019-10-02 16:51:35.578 [scheduler] Scheduler started [leastload]
+2019-10-02 16:51:35.585 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2019-10-02 16:51:35.586 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+Launching engines
+2019-10-02 16:52:18.040 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24976233-engine.json'
+2019-10-02 16:52:18.075 [IPControllerApp] client::client b'f6dbf569-0aedb3088f43c8ed0f085be8' requested 'registration_request'
+2019-10-02 16:52:18.067 [IPEngineApp] Registering with controller at tcp://10.128.33.164:39265
+2019-10-02 16:52:18.372 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 16:52:18.414 [IPEngineApp] Completed registration with id 0
+2019-10-02 16:52:20.577 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24976233-engine.json'
+2019-10-02 16:52:20.604 [IPEngineApp] Registering with controller at tcp://10.128.33.164:39265
+2019-10-02 16:52:20.613 [IPControllerApp] client::client b'd1223d1c-66f08cfbe551f34ec554f139' requested 'registration_request'
+2019-10-02 16:52:20.903 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 16:52:20.943 [IPEngineApp] Completed registration with id 1
+2019-10-02 16:52:23.518 [IPControllerApp] registration::finished registering engine 0:f6dbf569-0aedb3088f43c8ed0f085be8
+2019-10-02 16:52:23.521 [IPControllerApp] engine::Engine Connected: 0
+2019-10-02 16:52:26.519 [IPControllerApp] registration::finished registering engine 1:d1223d1c-66f08cfbe551f34ec554f139
+2019-10-02 16:52:26.521 [IPControllerApp] engine::Engine Connected: 1

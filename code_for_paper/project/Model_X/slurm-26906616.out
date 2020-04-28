@@ -1,0 +1,8 @@
+[+] ------START TIME (ST): Fri Dec 20 16:59:48 PST 2019------
+Start cluster...
+/var/spool/slurmd/job26906616/slurm_script: line 26: ./startCluster.sh: No such file or directory
+Traceback (most recent call last):
+  File "test_ipyparallel.py", line 181, in <module>
+    model_name = sys.argv[1] 
+NameError: name 'sys' is not defined
+[+] ------END TIME (ET) Fri Dec 20 17:01:07 PST 2019------

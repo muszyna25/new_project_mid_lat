@@ -1,0 +1,52 @@
+[+] ------START TIME (ST): Tue Mar  3 02:25:19 PST 2020------
+Start cluster...
+Launching controller
+Launching engines
+2020-03-03 02:26:00.383 [IPEngineApp] WARNING | url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28506981-engine.json' not found
+2020-03-03 02:26:00.383 [IPEngineApp] WARNING | Waiting up to 10.0 seconds for it to arrive.
+2020-03-03 02:26:01.340 [IPEngineApp] WARNING | url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28506981-engine.json' not found
+2020-03-03 02:26:01.340 [IPEngineApp] WARNING | Waiting up to 10.0 seconds for it to arrive.
+2020-03-03 02:26:01.373 [IPEngineApp] WARNING | url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28506981-engine.json' not found
+2020-03-03 02:26:01.373 [IPEngineApp] WARNING | Waiting up to 10.0 seconds for it to arrive.
+2020-03-03 02:26:10.482 [IPEngineApp] CRITICAL | Fatal: url file never arrived: /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28506981-engine.json
+srun: error: nid01390: task 3: Exited with exit code 1
+srun: Terminating job step 28506981.0
+2020-03-03 02:26:11.421 [IPEngineApp] CRITICAL | Fatal: url file never arrived: /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28506981-engine.json
+2020-03-03 02:26:11.462 [IPEngineApp] CRITICAL | Fatal: url file never arrived: /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28506981-engine.json
+srun: error: nid01389: task 2: Exited with exit code 1
+srun: error: nid00845: task 1: Exited with exit code 1
+slurmstepd: error: *** STEP 28506981.0 ON nid00831 CANCELLED AT 2020-03-03T02:26:12 ***
+srun: error: nid01391: task 4: Terminated
+srun: error: nid00831: task 0: Terminated
+srun: Force Terminated job step 28506981.0
+2020-03-03 02:30:26.576 [IPControllerApp] Hub listening on tcp://10.128.3.70:56283 for registration.
+2020-03-03 02:30:26.578 [IPControllerApp] Hub using DB backend: 'DictDB'
+2020-03-03 02:30:26.830 [IPControllerApp] hub::created hub
+2020-03-03 02:30:26.830 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28506981-client.json
+2020-03-03 02:30:27.630 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28506981-engine.json
+2020-03-03 02:30:27.831 [IPControllerApp] task::using Python leastload Task scheduler
+2020-03-03 02:30:27.831 [IPControllerApp] Heartmonitor started
+2020-03-03 02:30:27.854 [scheduler] Scheduler started [leastload]
+2020-03-03 02:30:27.863 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_28506981.pid
+2020-03-03 02:30:27.867 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2020-03-03 02:30:27.867 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2020-03-03 02:34:17.557 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2020-03-03 02:34:17.557 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+Model_C_3 61 261 20
+Job id: 28506981; Cluster id: cori_28506981
+Worker IDs: []
+Original order  ['3_train_0_.h5', '3_train_1_.h5', '3_train_2_.h5', '3_train_3_.h5', '3_train_4_.h5', '3_train_5_.h5', '3_train_6_.h5', '3_train_7_.h5', '3_train_8_.h5', '3_train_9_.h5', '3_train_10_.h5', '3_train_11_.h5', '3_train_12_.h5', '3_train_13_.h5', '3_train_14_.h5', '3_train_15_.h5', '3_train_16_.h5', '3_train_17_.h5', '3_train_18_.h5', '3_train_19_.h5'] ['3_val_0_.h5', '3_val_1_.h5', '3_val_2_.h5', '3_val_3_.h5', '3_val_4_.h5', '3_val_5_.h5', '3_val_6_.h5', '3_val_7_.h5', '3_val_8_.h5', '3_val_9_.h5', '3_val_10_.h5', '3_val_11_.h5', '3_val_12_.h5', '3_val_13_.h5', '3_val_14_.h5', '3_val_15_.h5', '3_val_16_.h5', '3_val_17_.h5', '3_val_18_.h5', '3_val_19_.h5']
+Shuffled files: ['3_train_2_.h5', '3_train_7_.h5', '3_train_10_.h5', '3_train_8_.h5', '3_train_14_.h5', '3_train_15_.h5', '3_train_18_.h5', '3_train_1_.h5', '3_train_3_.h5', '3_train_4_.h5', '3_train_6_.h5', '3_train_5_.h5', '3_train_12_.h5', '3_train_0_.h5', '3_train_16_.h5', '3_train_11_.h5', '3_train_17_.h5', '3_train_9_.h5', '3_train_13_.h5', '3_train_19_.h5'] ['3_val_10_.h5', '3_val_8_.h5', '3_val_2_.h5', '3_val_3_.h5', '3_val_5_.h5', '3_val_9_.h5', '3_val_15_.h5', '3_val_11_.h5', '3_val_0_.h5', '3_val_19_.h5', '3_val_18_.h5', '3_val_16_.h5', '3_val_4_.h5', '3_val_12_.h5', '3_val_17_.h5', '3_val_7_.h5', '3_val_14_.h5', '3_val_13_.h5', '3_val_6_.h5', '3_val_1_.h5']
+/global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_C/Model_C_3/28506981
+['ihp', 'n_hpo_trials', 'n_convs_layers', 'conv_sizes', 'n_fc_layers', 'fc_sizes', 'dropout', 'optimizer', 'lr', 'batch_sizes', 'n_epochs', 'repeats_conv', 'recep_fields', 'checkpoint_dir']
+Hyperparameter trial 0 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1231 opt Adam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_C/Model_C_3/28506981/model_0.h5
+Hyperparameter trial 1 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1357 opt Adam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_C/Model_C_3/28506981/model_1.h5
+Hyperparameter trial 2 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1177 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_C/Model_C_3/28506981/model_2.h5
+Hyperparameter trial 3 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1279 opt Adam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_C/Model_C_3/28506981/model_3.h5
+Hyperparameter trial 4 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1314 opt Adam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_C/Model_C_3/28506981/model_4.h5
+[+] ------END TIME (ET) Tue Mar  3 02:34:19 PST 2020------

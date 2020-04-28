@@ -1,0 +1,250 @@
+[+] ------START TIME (ST): Thu Feb 20 19:13:48 PST 2020------
+Start cluster...
+Launching controller
+2020-02-20 19:13:55.895 [IPControllerApp] Hub listening on tcp://10.128.2.216:53277 for registration.
+2020-02-20 19:13:55.896 [IPControllerApp] Hub using DB backend: 'DictDB'
+2020-02-20 19:13:56.148 [IPControllerApp] hub::created hub
+2020-02-20 19:13:56.148 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28299861-client.json
+2020-02-20 19:13:56.826 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28299861-engine.json
+2020-02-20 19:13:57.309 [IPControllerApp] task::using Python leastload Task scheduler
+2020-02-20 19:13:57.309 [IPControllerApp] Heartmonitor started
+2020-02-20 19:13:57.325 [scheduler] Scheduler started [leastload]
+2020-02-20 19:13:57.327 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_28299861.pid
+2020-02-20 19:13:57.330 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2020-02-20 19:13:57.331 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+Launching engines
+2020-02-20 19:15:03.480 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2020-02-20 19:15:03.480 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+Model_B_2 41 241 20
+Job id: 28299861; Cluster id: cori_28299861
+Worker IDs: []
+Original order  ['2_train_0_.h5', '2_train_1_.h5', '2_train_2_.h5', '2_train_3_.h5', '2_train_4_.h5', '2_train_5_.h5', '2_train_6_.h5', '2_train_7_.h5', '2_train_8_.h5', '2_train_9_.h5', '2_train_10_.h5', '2_train_11_.h5', '2_train_12_.h5', '2_train_13_.h5', '2_train_14_.h5', '2_train_15_.h5', '2_train_16_.h5', '2_train_17_.h5', '2_train_18_.h5', '2_train_19_.h5'] ['2_val_0_.h5', '2_val_1_.h5', '2_val_2_.h5', '2_val_3_.h5', '2_val_4_.h5', '2_val_5_.h5', '2_val_6_.h5', '2_val_7_.h5', '2_val_8_.h5', '2_val_9_.h5', '2_val_10_.h5', '2_val_11_.h5', '2_val_12_.h5', '2_val_13_.h5', '2_val_14_.h5', '2_val_15_.h5', '2_val_16_.h5', '2_val_17_.h5', '2_val_18_.h5', '2_val_19_.h5']
+Shuffled files: ['2_train_15_.h5', '2_train_12_.h5', '2_train_16_.h5', '2_train_8_.h5', '2_train_10_.h5', '2_train_14_.h5', '2_train_3_.h5', '2_train_11_.h5', '2_train_6_.h5', '2_train_1_.h5', '2_train_9_.h5', '2_train_18_.h5', '2_train_13_.h5', '2_train_19_.h5', '2_train_5_.h5', '2_train_17_.h5', '2_train_7_.h5', '2_train_0_.h5', '2_train_4_.h5', '2_train_2_.h5'] ['2_val_10_.h5', '2_val_18_.h5', '2_val_11_.h5', '2_val_0_.h5', '2_val_6_.h5', '2_val_14_.h5', '2_val_19_.h5', '2_val_13_.h5', '2_val_9_.h5', '2_val_8_.h5', '2_val_15_.h5', '2_val_1_.h5', '2_val_3_.h5', '2_val_5_.h5', '2_val_7_.h5', '2_val_16_.h5', '2_val_4_.h5', '2_val_12_.h5', '2_val_17_.h5', '2_val_2_.h5']
+/global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_B/Model_B_2/28299861
+['ihp', 'n_hpo_trials', 'n_convs_layers', 'conv_sizes', 'n_fc_layers', 'fc_sizes', 'dropout', 'optimizer', 'lr', 'batch_sizes', 'n_epochs', 'repeats_conv', 'recep_fields', 'checkpoint_dir']
+Hyperparameter trial 0 conv [ 64 128 256 512] fc [256 128  64] dropout 0.3215 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_B/Model_B_2/28299861/model_0.h5
+Hyperparameter trial 1 conv [ 64 128 256 512] fc [256 128  64] dropout 0.3189 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_B/Model_B_2/28299861/model_1.h5
+Hyperparameter trial 2 conv [ 64 128 256 512] fc [256 128  64] dropout 0.4116 opt Adam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_B/Model_B_2/28299861/model_2.h5
+Hyperparameter trial 3 conv [ 64 128 256 512] fc [256 128  64] dropout 0.4894 opt Adam, lr 0.0000, batch sizes 32
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_B/Model_B_2/28299861/model_3.h5
+Hyperparameter trial 4 conv [ 64 128 256 512] fc [256 128  64] dropout 0.3070 opt Adam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_B/Model_B_2/28299861/model_4.h5
+2020-02-20 19:15:21.796 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28299861-engine.json'
+2020-02-20 19:15:21.830 [IPEngineApp] Registering with controller at tcp://10.128.2.216:53277
+2020-02-20 19:15:21.832 [IPControllerApp] client::client b'17e6d6be-32996a0a00d18642e68452cd' requested 'registration_request'
+2020-02-20 19:15:21.917 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-20 19:15:21.941 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28299861-engine.json'
+2020-02-20 19:15:21.951 [IPEngineApp] Completed registration with id 0
+2020-02-20 19:15:21.980 [IPEngineApp] Registering with controller at tcp://10.128.2.216:53277
+2020-02-20 19:15:21.982 [IPControllerApp] client::client b'1953b2e7-8b7d2f6df59d456de9f2b05c' requested 'registration_request'
+2020-02-20 19:15:22.069 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-20 19:15:22.096 [IPEngineApp] Completed registration with id 1
+2020-02-20 19:15:22.212 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28299861-engine.json'
+2020-02-20 19:15:22.312 [IPEngineApp] Registering with controller at tcp://10.128.2.216:53277
+2020-02-20 19:15:22.313 [IPControllerApp] client::client b'34a40b10-0fcfbb8f667782be310cb95f' requested 'registration_request'
+2020-02-20 19:15:22.436 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-20 19:15:22.511 [IPEngineApp] Completed registration with id 2
+2020-02-20 19:15:23.119 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28299861-engine.json'
+2020-02-20 19:15:23.125 [IPControllerApp] client::client b'8314e86e-db3cdf8e4832e730e5e06d9f' requested 'registration_request'
+2020-02-20 19:15:23.124 [IPEngineApp] Registering with controller at tcp://10.128.2.216:53277
+2020-02-20 19:15:24.512 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28299861-engine.json'
+2020-02-20 19:15:24.598 [IPEngineApp] Registering with controller at tcp://10.128.2.216:53277
+2020-02-20 19:15:24.599 [IPControllerApp] client::client b'893acbf6-21ea00df009f86e7bef4caf3' requested 'registration_request'
+2020-02-20 19:15:24.738 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-20 19:15:24.783 [IPEngineApp] Completed registration with id 4
+2020-02-20 19:15:25.375 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-20 19:15:26.815 [IPEngineApp] Completed registration with id 3
+2020-02-20 19:15:27.310 [IPControllerApp] registration::finished registering engine 1:1953b2e7-8b7d2f6df59d456de9f2b05c
+2020-02-20 19:15:27.311 [IPControllerApp] engine::Engine Connected: 1
+2020-02-20 19:15:27.324 [IPControllerApp] registration::finished registering engine 3:8314e86e-db3cdf8e4832e730e5e06d9f
+2020-02-20 19:15:27.325 [IPControllerApp] engine::Engine Connected: 3
+2020-02-20 19:15:27.328 [IPControllerApp] registration::finished registering engine 0:17e6d6be-32996a0a00d18642e68452cd
+2020-02-20 19:15:27.328 [IPControllerApp] engine::Engine Connected: 0
+2020-02-20 19:15:27.331 [IPControllerApp] registration::finished registering engine 2:34a40b10-0fcfbb8f667782be310cb95f
+2020-02-20 19:15:27.332 [IPControllerApp] engine::Engine Connected: 2
+2020-02-20 19:15:27.337 [IPControllerApp] task::task '2bf25807-b8e8adcd3244a8d692273f79' arrived on 1
+2020-02-20 19:15:27.338 [IPControllerApp] task::task '9eaacb23-2406f3834d4a2130c68a6cec' arrived on 3
+2020-02-20 19:15:27.339 [IPControllerApp] task::task '8fb3c4a2-0465ec10f8e4e72ee01811fc' arrived on 0
+2020-02-20 19:15:27.340 [IPControllerApp] task::task '3ac20ed4-2c14091e2b9f92dd81d20102' arrived on 2
+2020-02-20 19:15:30.313 [IPControllerApp] registration::finished registering engine 4:893acbf6-21ea00df009f86e7bef4caf3
+2020-02-20 19:15:30.314 [IPControllerApp] engine::Engine Connected: 4
+2020-02-20 19:15:30.320 [IPControllerApp] task::task 'e8b25934-49fe836da671cf8d53188837' arrived on 4
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-20 19:15:34.219502: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-20 19:15:34.239511: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300050000 Hz
+2020-02-20 19:15:34.241378: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558df3ee0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-20 19:15:34.241392: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-20 19:15:34.575953: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-20 19:15:34.595959: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299880000 Hz
+2020-02-20 19:15:34.597704: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558df2fa0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-20 19:15:34.597718: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-20 19:15:35.511902: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-20 19:15:35.534012: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300115000 Hz
+2020-02-20 19:15:35.535992: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558df40d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-20 19:15:35.536007: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-20 19:15:36.368458: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-20 19:15:36.391594: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300145000 Hz
+2020-02-20 19:15:36.393346: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558dec0e0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-20 19:15:36.393362: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-20 19:15:47.274146: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-20 19:15:47.298376: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299950000 Hz
+2020-02-20 19:15:47.300256: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558deb380 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-20 19:15:47.300271: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+2020-02-20 19:16:27.442 [IPEngineApp] Exception in apply request:
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mInvalidArgumentError[0m                      Traceback (most recent call last)
+[0;32m<string>[0m in [0;36m<module>[0;34m[0m
+
+[0;32m/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/test_ipyparallel.py[0m in [0;36mbuild_and_train[0;34m(input_dir, input_size, conv_sizes, fc_sizes, dropout, optimizer, lr, batch_size, n_epochs, repeats_conv, recep_field, checkpoint_dir, checkpoint_file, l_fnames_train, l_fnames_val, ihp, verbose)[0m
+[1;32m    126[0m                               [0mcheckpoint_dir[0m[0;34m=[0m[0mcheckpoint_dir[0m[0;34m,[0m [0mcheckpoint_file[0m[0;34m=[0m[0mcheckpoint_file[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    127[0m                               [0mdata_dir_path[0m[0;34m=[0m[0minput_dir[0m[0;34m[[0m[0;34m:[0m[0;34m-[0m[0;36m1[0m[0;34m][0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 128[0;31m                               l_fnames_train=l_fnames_train, l_fnames_val=l_fnames_val, ihp=ihp, verbose=verbose)
+[0m[1;32m    129[0m [0;34m[0m[0m
+[1;32m    130[0m         [0;31m#oldStdout = sys.stdout[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_B/Model_B_regres/model_code.py[0m in [0;36mtrain_model[0;34m(model, batch_size, n_epochs, checkpoint_dir, checkpoint_file, data_dir_path, l_fnames_train, l_fnames_val, ihp, verbose, callbacks)[0m
+[1;32m    610[0m                 [0mcallbacks[0m[0;34m=[0m[0mrpv_callbacks[0m[0;34m,[0m [0mshuffle[0m[0;34m=[0m[0;32mTrue[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    611[0m                 [0mepochs[0m[0;34m=[0m[0mn_epochs[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 612[0;31m                 verbose=1)
+[0m[1;32m    613[0m [0;34m[0m[0m
+[1;32m    614[0m     [0;32mreturn[0m [0mm[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training.py[0m in [0;36mfit_generator[0;34m(self, generator, steps_per_epoch, epochs, verbose, callbacks, validation_data, validation_steps, validation_freq, class_weight, max_queue_size, workers, use_multiprocessing, shuffle, initial_epoch)[0m
+[1;32m   1294[0m         [0mshuffle[0m[0;34m=[0m[0mshuffle[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1295[0m         [0minitial_epoch[0m[0;34m=[0m[0minitial_epoch[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1296[0;31m         steps_name='steps_per_epoch')
+2020-02-20 19:16:27.445 [IPControllerApp] task::task '3ac20ed4-2c14091e2b9f92dd81d20102' finished on 2
+[0m[1;32m   1297[0m [0;34m[0m[0m
+[1;32m   1298[0m   def evaluate_generator(self,
+
+[0;32m/usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training_generator.py[0m in [0;36mmodel_iteration[0;34m(model, data, steps_per_epoch, epochs, verbose, callbacks, validation_data, validation_steps, validation_freq, class_weight, max_queue_size, workers, use_multiprocessing, shuffle, initial_epoch, mode, batch_size, steps_name, **kwargs)[0m
+[1;32m    263[0m [0;34m[0m[0m
+[1;32m    264[0m       [0mis_deferred[0m [0;34m=[0m [0;32mnot[0m [0mmodel[0m[0;34m.[0m[0m_is_compiled[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 265[0;31m       [0mbatch_outs[0m [0;34m=[0m [0mbatch_function[0m[0;34m([0m[0;34m*[0m[0mbatch_data[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    266[0m       [0;32mif[0m [0;32mnot[0m [0misinstance[0m[0;34m([0m[0mbatch_outs[0m[0;34m,[0m [0mlist[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    267[0m         [0mbatch_outs[0m [0;34m=[0m [0;34m[[0m[0mbatch_outs[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/keras/engine/training.py[0m in [0;36mtrain_on_batch[0;34m(self, x, y, sample_weight, class_weight, reset_metrics)[0m
+[1;32m   1015[0m       [0mself[0m[0;34m.[0m[0m_update_sample_weight_modes[0m[0;34m([0m[0msample_weights[0m[0;34m=[0m[0msample_weights[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1016[0m       [0mself[0m[0;34m.[0m[0m_make_train_function[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1017[0;31m       [0moutputs[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mtrain_function[0m[0;34m([0m[0mins[0m[0;34m)[0m  [0;31m# pylint: disable=not-callable[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1018[0m [0;34m[0m[0m
+[1;32m   1019[0m     [0;32mif[0m [0mreset_metrics[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/keras/backend.py[0m in [0;36m__call__[0;34m(self, inputs)[0m
+[1;32m   3474[0m [0;34m[0m[0m
+[1;32m   3475[0m     fetched = self._callable_fn(*array_vals,
+[0;32m-> 3476[0;31m                                 run_metadata=self.run_metadata)
+[0m[1;32m   3477[0m     [0mself[0m[0;34m.[0m[0m_call_fetch_callbacks[0m[0;34m([0m[0mfetched[0m[0;34m[[0m[0;34m-[0m[0mlen[0m[0;34m([0m[0mself[0m[0;34m.[0m[0m_fetches[0m[0;34m)[0m[0;34m:[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   3478[0m     output_structure = nest.pack_sequence_as(
+
+[0;32m/usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/client/session.py[0m in [0;36m__call__[0;34m(self, *args, **kwargs)[0m
+[1;32m   1470[0m         ret = tf_session.TF_SessionRunCallable(self._session._session,
+[1;32m   1471[0m                                                [0mself[0m[0;34m.[0m[0m_handle[0m[0;34m,[0m [0margs[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1472[0;31m                                                run_metadata_ptr)
+[0m[1;32m   1473[0m         [0;32mif[0m [0mrun_metadata[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1474[0m           [0mproto_data[0m [0;34m=[0m [0mtf_session[0m[0;34m.[0m[0mTF_GetBuffer[0m[0;34m([0m[0mrun_metadata_ptr[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mInvalidArgumentError[0m: input and filter must have the same depth: 40 vs 64
+	 [[{{node conv2d_1/Relu}}]]
+2020-02-20 19:16:28.658 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-20 19:23:33.313 [IPControllerApp] heartbeat::missed b'1953b2e7-8b7d2f6df59d456de9f2b05c' : 1
+2020-02-20 19:24:24.933 [IPControllerApp] heartbeat::missed b'34a40b10-0fcfbb8f667782be310cb95f' : 1
+2020-02-20 19:24:24.933 [IPControllerApp] heartbeat::missed b'893acbf6-21ea00df009f86e7bef4caf3' : 1
+2020-02-20 19:24:24.933 [IPControllerApp] heartbeat::missed b'17e6d6be-32996a0a00d18642e68452cd' : 1
+2020-02-20 19:24:24.951 [IPControllerApp] WARNING | heartbeat::heart b'893acbf6-21ea00df009f86e7bef4caf3' missed a beat, and took 54637.43 ms to respond
+2020-02-20 19:24:24.951 [IPControllerApp] WARNING | heartbeat::heart b'34a40b10-0fcfbb8f667782be310cb95f' missed a beat, and took 54637.89 ms to respond
+2020-02-20 19:24:24.951 [IPControllerApp] WARNING | heartbeat::heart b'1953b2e7-8b7d2f6df59d456de9f2b05c' missed a beat, and took 54638.12 ms to respond
+2020-02-20 19:24:24.952 [IPControllerApp] WARNING | heartbeat::heart b'17e6d6be-32996a0a00d18642e68452cd' missed a beat, and took 54638.38 ms to respond
+2020-02-20 19:23:33.070 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-20 19:23:36.080 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-20 19:23:39.090 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-20 19:23:42.100 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-20 19:23:45.110 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-20 19:23:48.120 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-20 19:23:51.130 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-20 19:23:54.140 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-20 19:23:57.150 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-20 19:24:00.160 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-20 19:24:03.170 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-20 19:24:06.180 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-20 19:24:09.189 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-20 19:24:12.200 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-20 19:24:15.210 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-20 19:24:18.220 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-20 19:24:21.230 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-20 19:24:24.239 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-20 22:09:59.792 [IPControllerApp] task::task '2bf25807-b8e8adcd3244a8d692273f79' finished on 1
+2020-02-20 22:09:59.880 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-20 22:12:19.912 [IPControllerApp] task::task '8fb3c4a2-0465ec10f8e4e72ee01811fc' finished on 0
+2020-02-20 22:12:21.200 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-20 22:30:48.200 [IPControllerApp] task::task 'e8b25934-49fe836da671cf8d53188837' finished on 4
+2020-02-20 22:44:32.331 [IPControllerApp] task::task '9eaacb23-2406f3834d4a2130c68a6cec' finished on 3
+slurmstepd: error: *** STEP 28299861.0 ON nid00723 CANCELLED AT 2020-02-21T02:13:50 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+srun: forcing job termination
+2020-02-21 02:13:50.512 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2020-02-21 02:13:50.512 [IPControllerApp] CRITICAL | terminating children...

@@ -1,0 +1,155 @@
+[+] ------START TIME (ST): Fri Jan 10 19:18:21 PST 2020------
+Start cluster...
+Launching controller
+2020-01-10 19:18:26.509 [IPControllerApp] Hub listening on tcp://10.128.6.73:53649 for registration.
+2020-01-10 19:18:26.511 [IPControllerApp] Hub using DB backend: 'DictDB'
+2020-01-10 19:18:26.762 [IPControllerApp] hub::created hub
+2020-01-10 19:18:26.763 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27342092-client.json
+2020-01-10 19:18:26.776 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27342092-engine.json
+2020-01-10 19:18:26.787 [IPControllerApp] task::using Python leastload Task scheduler
+2020-01-10 19:18:26.787 [IPControllerApp] Heartmonitor started
+2020-01-10 19:18:26.805 [scheduler] Scheduler started [leastload]
+2020-01-10 19:18:26.816 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_27342092.pid
+2020-01-10 19:18:26.819 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2020-01-10 19:18:26.819 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+Launching engines
+2020-01-10 19:19:03.524 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27342092-engine.json'
+2020-01-10 19:19:03.529 [IPControllerApp] client::client b'46547de0-508b900425427b93a4e9c683' requested 'registration_request'
+2020-01-10 19:19:03.528 [IPEngineApp] Registering with controller at tcp://10.128.6.73:53649
+2020-01-10 19:19:03.626 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-10 19:19:03.645 [IPEngineApp] Completed registration with id 0
+2020-01-10 19:19:05.997 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27342092-engine.json'
+2020-01-10 19:19:06.002 [IPEngineApp] Registering with controller at tcp://10.128.6.73:53649
+2020-01-10 19:19:06.004 [IPControllerApp] client::client b'92226647-856a075cc9833967e23029fc' requested 'registration_request'
+2020-01-10 19:19:06.063 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27342092-engine.json'
+2020-01-10 19:19:06.065 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-10 19:19:06.068 [IPEngineApp] Registering with controller at tcp://10.128.6.73:53649
+2020-01-10 19:19:06.070 [IPControllerApp] client::client b'8f12db7f-942843c0647bf80a740769f4' requested 'registration_request'
+2020-01-10 19:19:06.074 [IPEngineApp] Completed registration with id 1
+2020-01-10 19:19:06.128 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-10 19:19:06.136 [IPEngineApp] Completed registration with id 2
+2020-01-10 19:19:06.288 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27342092-engine.json'
+2020-01-10 19:19:06.294 [IPEngineApp] Registering with controller at tcp://10.128.6.73:53649
+2020-01-10 19:19:06.295 [IPControllerApp] client::client b'1e921e3e-e88a1d75b2549b75ba74ea4c' requested 'registration_request'
+2020-01-10 19:19:06.371 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-10 19:19:06.386 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27342092-engine.json'
+2020-01-10 19:19:06.398 [IPEngineApp] Completed registration with id 3
+2020-01-10 19:19:06.404 [IPEngineApp] Registering with controller at tcp://10.128.6.73:53649
+2020-01-10 19:19:06.405 [IPControllerApp] client::client b'30e73721-884501b7e1935f63f435b726' requested 'registration_request'
+2020-01-10 19:19:06.464 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-10 19:19:06.473 [IPEngineApp] Completed registration with id 4
+2020-01-10 19:19:08.790 [IPControllerApp] registration::finished registering engine 0:46547de0-508b900425427b93a4e9c683
+2020-01-10 19:19:08.791 [IPControllerApp] engine::Engine Connected: 0
+2020-01-10 19:19:11.791 [IPControllerApp] registration::finished registering engine 3:1e921e3e-e88a1d75b2549b75ba74ea4c
+2020-01-10 19:19:11.791 [IPControllerApp] engine::Engine Connected: 3
+2020-01-10 19:19:11.798 [IPControllerApp] registration::finished registering engine 4:30e73721-884501b7e1935f63f435b726
+2020-01-10 19:19:11.798 [IPControllerApp] engine::Engine Connected: 4
+2020-01-10 19:19:11.800 [IPControllerApp] registration::finished registering engine 1:92226647-856a075cc9833967e23029fc
+2020-01-10 19:19:11.801 [IPControllerApp] engine::Engine Connected: 1
+2020-01-10 19:19:11.803 [IPControllerApp] registration::finished registering engine 2:8f12db7f-942843c0647bf80a740769f4
+2020-01-10 19:19:11.803 [IPControllerApp] engine::Engine Connected: 2
+2020-01-10 19:19:30.907 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2020-01-10 19:19:30.908 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+Model_C_3 61 261 20
+Job id: 27342092; Cluster id: cori_27342092
+Worker IDs: [0, 1, 2, 3, 4]
+Original order  ['3_train_0_.h5', '3_train_1_.h5', '3_train_2_.h5', '3_train_3_.h5', '3_train_4_.h5', '3_train_5_.h5', '3_train_6_.h5', '3_train_7_.h5', '3_train_8_.h5', '3_train_9_.h5', '3_train_10_.h5', '3_train_11_.h5', '3_train_12_.h5', '3_train_13_.h5', '3_train_14_.h5', '3_train_15_.h5', '3_train_16_.h5', '3_train_17_.h5', '3_train_18_.h5', '3_train_19_.h5'] ['3_val_0_.h5', '3_val_1_.h5', '3_val_2_.h5', '3_val_3_.h5', '3_val_4_.h5', '3_val_5_.h5', '3_val_6_.h5', '3_val_7_.h5', '3_val_8_.h5', '3_val_9_.h5', '3_val_10_.h5', '3_val_11_.h5', '3_val_12_.h5', '3_val_13_.h5', '3_val_14_.h5', '3_val_15_.h5', '3_val_16_.h5', '3_val_17_.h5', '3_val_18_.h5', '3_val_19_.h5']
+Shuffled files: ['3_train_14_.h5', '3_train_10_.h5', '3_train_16_.h5', '3_train_19_.h5', '3_train_11_.h5', '3_train_7_.h5', '3_train_12_.h5', '3_train_18_.h5', '3_train_9_.h5', '3_train_8_.h5', '3_train_3_.h5', '3_train_17_.h5', '3_train_15_.h5', '3_train_5_.h5', '3_train_6_.h5', '3_train_4_.h5', '3_train_0_.h5', '3_train_1_.h5', '3_train_13_.h5', '3_train_2_.h5'] ['3_val_4_.h5', '3_val_16_.h5', '3_val_8_.h5', '3_val_11_.h5', '3_val_7_.h5', '3_val_0_.h5', '3_val_3_.h5', '3_val_18_.h5', '3_val_2_.h5', '3_val_9_.h5', '3_val_1_.h5', '3_val_12_.h5', '3_val_15_.h5', '3_val_17_.h5', '3_val_13_.h5', '3_val_6_.h5', '3_val_19_.h5', '3_val_5_.h5', '3_val_10_.h5', '3_val_14_.h5']
+/global/cscratch1/sd/muszyng/cnn_model_runs/Model_C/Model_C_3/27342092
+['ihp', 'n_hpo_trials', 'n_convs_layers', 'conv_sizes', 'n_fc_layers', 'fc_sizes', 'dropout', 'optimizer', 'lr', 'batch_sizes', 'n_epochs', 'repeats_conv', 'recep_fields', 'checkpoint_dir']
+Hyperparameter trial 0 conv [ 64 128 256 512] fc [512 256 128  64] dropout 0.6459 opt Adam, lr 0.0000, batch sizes 32
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_C/Model_C_3/27342092/model_0.h5
+Hyperparameter trial 1 conv [ 64 128 256 512] fc [512 256 128  64] dropout 0.5467 opt Adam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_C/Model_C_3/27342092/model_1.h5
+Hyperparameter trial 2 conv [ 64 128 256 512] fc [512 256 128  64] dropout 0.5621 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_C/Model_C_3/27342092/model_2.h5
+Hyperparameter trial 3 conv [ 64 128 256 512] fc [512 256 128  64] dropout 0.4396 opt Adam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_C/Model_C_3/27342092/model_3.h5
+Hyperparameter trial 4 conv [ 64 128 256 512] fc [512 256 128  64] dropout 0.3479 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_C/Model_C_3/27342092/model_4.h5
+2020-01-10 19:19:33.244 [IPControllerApp] task::task 'dac9f39b-bda22e2bb072a73e15545f7f' arrived on 2
+2020-01-10 19:19:33.247 [IPControllerApp] task::task '3a785fb7-eb51d95f62bc61185d418ef5' arrived on 1
+2020-01-10 19:19:33.252 [IPControllerApp] task::task '4d7d3e1d-734d4319e8e2eb4a1276fd01' arrived on 4
+2020-01-10 19:19:33.253 [IPControllerApp] task::task '8f0b8b9e-e29aa2186fd68ee190487754' arrived on 3
+2020-01-10 19:19:33.256 [IPControllerApp] task::task '7cacf663-a7002d086ef2835623a053b6' arrived on 0
+XXX lineno: 101, opcode: 160
+XXX lineno: 101, opcode: 160
+XXX lineno: 101, opcode: 160
+XXX lineno: 101, opcode: 160
+2020-01-10 19:19:44.570 [IPEngineApp] Exception in apply request:
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mSystemError[0m                               Traceback (most recent call last)
+[0;32m<string>[0m in [0;36m<module>[0;34m[0m
+
+[0;32m/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_C/test_ipyparallel.py[0m in [0;36mbuild_and_train[0;34m(input_dir, input_size, conv_sizes, fc_sizes, dropout, optimizer, lr, batch_size, n_epochs, repeats_conv, recep_field, checkpoint_dir, checkpoint_file, l_fnames_train, l_fnames_val, ihp, verbose)[0m
+[1;32m     99[0m [0;34m[0m[0m
+[1;32m    100[0m     [0;31m# Thread settings[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 101[0;31m     [0mtensorflow[0m[0;34m.[0m[0mkeras[0m[0;34m.[0m[0mbackend[0m[0;34m.[0m[0mset_session[0m[0;34m([0m[0mconfigure_session[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    102[0m [0;34m[0m[0m
+[1;32m    103[0m     [0;31m# Build the model[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mSystemError[0m: unknown opcode
+2020-01-10 19:19:44.574 [IPControllerApp] task::task '4d7d3e1d-734d4319e8e2eb4a1276fd01' finished on 4
+2020-01-10 19:19:44.591 [IPEngineApp] Exception in apply request:
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mSystemError[0m                               Traceback (most recent call last)
+[0;32m<string>[0m in [0;36m<module>[0;34m[0m
+
+[0;32m/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_C/test_ipyparallel.py[0m in [0;36mbuild_and_train[0;34m(input_dir, input_size, conv_sizes, fc_sizes, dropout, optimizer, lr, batch_size, n_epochs, repeats_conv, recep_field, checkpoint_dir, checkpoint_file, l_fnames_train, l_fnames_val, ihp, verbose)[0m
+[1;32m     99[0m [0;34m[0m[0m
+[1;32m    100[0m     [0;31m# Thread settings[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 101[0;31m     [0mtensorflow[0m[0;34m.[0m[0mkeras[0m[0;34m.[0m[0mbackend[0m[0;34m.[0m[0mset_session[0m[0;34m([0m[0mconfigure_session[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    102[0m [0;34m[0m[0m
+[1;32m    103[0m     [0;31m# Build the model[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mSystemError[0m: unknown opcode
+2020-01-10 19:19:44.594 [IPControllerApp] task::task '3a785fb7-eb51d95f62bc61185d418ef5' finished on 1
+2020-01-10 19:19:44.647 [IPEngineApp] Exception in apply request:
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mSystemError[0m                               Traceback (most recent call last)
+[0;32m<string>[0m in [0;36m<module>[0;34m[0m
+
+[0;32m/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_C/test_ipyparallel.py[0m in [0;36mbuild_and_train[0;34m(input_dir, input_size, conv_sizes, fc_sizes, dropout, optimizer, lr, batch_size, n_epochs, repeats_conv, recep_field, checkpoint_dir, checkpoint_file, l_fnames_train, l_fnames_val, ihp, verbose)[0m
+[1;32m     99[0m [0;34m[0m[0m
+[1;32m    100[0m     [0;31m# Thread settings[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 101[0;31m     [0mtensorflow[0m[0;34m.[0m[0mkeras[0m[0;34m.[0m[0mbackend[0m[0;34m.[0m[0mset_session[0m[0;34m([0m[0mconfigure_session[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    102[0m [0;34m[0m[0m
+[1;32m    103[0m     [0;31m# Build the model[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mSystemError[0m: unknown opcode
+2020-01-10 19:19:44.651 [IPControllerApp] task::task 'dac9f39b-bda22e2bb072a73e15545f7f' finished on 2
+2020-01-10 19:19:44.701 [IPEngineApp] Exception in apply request:
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mSystemError[0m                               Traceback (most recent call last)
+[0;32m<string>[0m in [0;36m<module>[0;34m[0m
+
+[0;32m/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_C/test_ipyparallel.py[0m in [0;36mbuild_and_train[0;34m(input_dir, input_size, conv_sizes, fc_sizes, dropout, optimizer, lr, batch_size, n_epochs, repeats_conv, recep_field, checkpoint_dir, checkpoint_file, l_fnames_train, l_fnames_val, ihp, verbose)[0m
+[1;32m     99[0m [0;34m[0m[0m
+[1;32m    100[0m     [0;31m# Thread settings[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 101[0;31m     [0mtensorflow[0m[0;34m.[0m[0mkeras[0m[0;34m.[0m[0mbackend[0m[0;34m.[0m[0mset_session[0m[0;34m([0m[0mconfigure_session[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    102[0m [0;34m[0m[0m
+[1;32m    103[0m     [0;31m# Build the model[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mSystemError[0m: unknown opcode
+2020-01-10 19:19:44.705 [IPControllerApp] task::task '7cacf663-a7002d086ef2835623a053b6' finished on 0
+XXX lineno: 101, opcode: 160
+2020-01-10 19:19:45.156 [IPEngineApp] Exception in apply request:
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mSystemError[0m                               Traceback (most recent call last)
+[0;32m<string>[0m in [0;36m<module>[0;34m[0m
+
+[0;32m/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_C/test_ipyparallel.py[0m in [0;36mbuild_and_train[0;34m(input_dir, input_size, conv_sizes, fc_sizes, dropout, optimizer, lr, batch_size, n_epochs, repeats_conv, recep_field, checkpoint_dir, checkpoint_file, l_fnames_train, l_fnames_val, ihp, verbose)[0m
+[1;32m     99[0m [0;34m[0m[0m
+[1;32m    100[0m     [0;31m# Thread settings[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 101[0;31m     [0mtensorflow[0m[0;34m.[0m[0mkeras[0m[0;34m.[0m[0mbackend[0m[0;34m.[0m[0mset_session[0m[0;34m([0m[0mconfigure_session[0m[0;34m([0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    102[0m [0;34m[0m[0m
+[1;32m    103[0m     [0;31m# Build the model[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mSystemError[0m: unknown opcode
+2020-01-10 19:19:45.160 [IPControllerApp] task::task '8f0b8b9e-e29aa2186fd68ee190487754' finished on 3
+2020-01-10 19:19:45.503 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+srun: got SIGCONT
+slurmstepd: error: *** STEP 27342092.0 ON nid01596 CANCELLED AT 2020-01-10T21:12:11 ***
+2020-01-10 21:12:11.702 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+srun: forcing job termination
+2020-01-10 21:12:11.705 [IPControllerApp] CRITICAL | terminating children...

@@ -1,0 +1,100 @@
+[+] ------START TIME (ST): Sun Dec 29 22:13:46 PST 2019------
+Start cluster...
+Launching controller
+2019-12-29 22:13:51.441 [IPControllerApp] Hub listening on tcp://10.128.7.127:34693 for registration.
+2019-12-29 22:13:51.442 [IPControllerApp] Hub using DB backend: 'DictDB'
+2019-12-29 22:13:51.694 [IPControllerApp] hub::created hub
+2019-12-29 22:13:51.694 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27098348-client.json
+2019-12-29 22:13:51.735 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27098348-engine.json
+2019-12-29 22:13:51.747 [IPControllerApp] task::using Python leastload Task scheduler
+2019-12-29 22:13:51.747 [IPControllerApp] Heartmonitor started
+2019-12-29 22:13:51.764 [scheduler] Scheduler started [leastload]
+2019-12-29 22:13:51.775 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_27098348.pid
+2019-12-29 22:13:51.779 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2019-12-29 22:13:51.779 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+Launching engines
+2019-12-29 22:14:36.762 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27098348-engine.json'
+2019-12-29 22:14:36.768 [IPControllerApp] client::client b'c1aa6f64-bb08ae4a10241370ca6d89ad' requested 'registration_request'
+2019-12-29 22:14:36.766 [IPEngineApp] Registering with controller at tcp://10.128.7.127:34693
+2019-12-29 22:14:36.831 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-12-29 22:14:36.839 [IPEngineApp] Completed registration with id 0
+2019-12-29 22:14:39.297 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27098348-engine.json'
+2019-12-29 22:14:39.302 [IPEngineApp] Registering with controller at tcp://10.128.7.127:34693
+2019-12-29 22:14:39.303 [IPControllerApp] client::client b'2d8bace2-3a35717a74c6624c6828ca87' requested 'registration_request'
+2019-12-29 22:14:39.362 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-12-29 22:14:39.371 [IPEngineApp] Completed registration with id 1
+2019-12-29 22:14:42.751 [IPControllerApp] registration::finished registering engine 1:2d8bace2-3a35717a74c6624c6828ca87
+2019-12-29 22:14:42.752 [IPControllerApp] engine::Engine Connected: 1
+2019-12-29 22:14:42.775 [IPControllerApp] registration::finished registering engine 0:c1aa6f64-bb08ae4a10241370ca6d89ad
+2019-12-29 22:14:42.776 [IPControllerApp] engine::Engine Connected: 0
+2019-12-29 22:15:04.470 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2019-12-29 22:15:04.470 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+Model_A_2 41 241 20
+Job id: 27098348; Cluster id: cori_27098348
+Worker IDs: [0, 1]
+Original order  ['2_train_0_.h5', '2_train_1_.h5', '2_train_2_.h5', '2_train_3_.h5', '2_train_4_.h5', '2_train_5_.h5', '2_train_6_.h5', '2_train_7_.h5', '2_train_8_.h5', '2_train_9_.h5', '2_train_10_.h5', '2_train_11_.h5', '2_train_12_.h5', '2_train_13_.h5', '2_train_14_.h5', '2_train_15_.h5', '2_train_16_.h5', '2_train_17_.h5', '2_train_18_.h5', '2_train_19_.h5'] ['2_val_0_.h5', '2_val_1_.h5', '2_val_2_.h5', '2_val_3_.h5', '2_val_4_.h5', '2_val_5_.h5', '2_val_6_.h5', '2_val_7_.h5', '2_val_8_.h5', '2_val_9_.h5', '2_val_10_.h5', '2_val_11_.h5', '2_val_12_.h5', '2_val_13_.h5', '2_val_14_.h5', '2_val_15_.h5', '2_val_16_.h5', '2_val_17_.h5', '2_val_18_.h5', '2_val_19_.h5']
+Shuffled files: ['2_train_17_.h5', '2_train_19_.h5', '2_train_10_.h5'] ['2_val_7_.h5', '2_val_16_.h5', '2_val_15_.h5']
+/global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/27098348
+['ihp', 'n_hpo_trials', 'n_convs_layers', 'conv_sizes', 'n_fc_layers', 'fc_sizes', 'dropout', 'optimizer', 'lr', 'batch_sizes', 'n_epochs', 'repeats_conv', 'recep_fields', 'checkpoint_dir']
+Hyperparameter trial 0 conv [ 64 128 256 512] fc [512 256 128] dropout 0.3195 opt Nadam, lr 0.0000, batch sizes 32
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/27098348/model_0.h5
+Hyperparameter trial 1 conv [ 64 128 256 512] fc [512 256 128] dropout 0.3861 opt Nadam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/27098348/model_1.h5
+Hyperparameter trial 2 conv [ 64 128 256 512] fc [512 256 128] dropout 0.3411 opt Nadam, lr 0.0000, batch sizes 32
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/27098348/model_2.h5
+Hyperparameter trial 3 conv [ 64 128 256 512] fc [512 256 128] dropout 0.3180 opt Adam, lr 0.0000, batch sizes 32
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/27098348/model_3.h5
+2019-12-29 22:15:04.525 [IPControllerApp] task::task 'f7c2354c-85b84f5b4a7f9aebda9b1392' arrived on 0
+2019-12-29 22:15:04.526 [IPControllerApp] task::task '25213b6b-7ec59f40ef911c30d6ea1df0' arrived on 1
+2019-12-29 22:15:07.119093: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-12-29 22:15:07.137529: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299980000 Hz
+2019-12-29 22:15:07.140903: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b8b480 executing computations on platform Host. Devices:
+2019-12-29 22:15:07.140920: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2019-12-29 22:15:15.603873: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-12-29 22:15:15.623359: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299875000 Hz
+2019-12-29 22:15:15.626811: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b8c790 executing computations on platform Host. Devices:
+2019-12-29 22:15:15.626828: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-12-29 22:48:12.520 [IPEngineApp] Entering eventloop <function loop_qt5 at 0x2aaaeaa5b1e0>
+2019-12-29 22:48:12.521 [IPControllerApp] task::task '609e7da5-702ee3cf83152ff3cced8dbd' arrived on 1
+2019-12-29 22:48:12.522 [IPControllerApp] task::task '25213b6b-7ec59f40ef911c30d6ea1df0' finished on 1
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2019-12-29 23:11:05.389 [IPEngineApp] Entering eventloop <function loop_qt5 at 0x2aaaeaa5b1e0>
+2019-12-29 23:11:05.391 [IPControllerApp] task::task 'f40d0043-3be79e6a07a295a7d30fff45' arrived on 0
+2019-12-29 23:11:05.392 [IPControllerApp] task::task 'f7c2354c-85b84f5b4a7f9aebda9b1392' finished on 0
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2019-12-29 23:17:08.718 [IPControllerApp] task::task '609e7da5-702ee3cf83152ff3cced8dbd' finished on 1
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-muszyng'
+qt.qpa.screen: QXcbConnection: Could not connect to display cori09:14.0
+Could not connect to any X display.
+2019-12-29 23:17:12.751 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 1
+2019-12-29 23:17:15.751 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 2
+srun: error: nid01905: task 1: Exited with exit code 1
+srun: Terminating job step 27098348.0
+2019-12-29 23:17:18.750 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 3
+2019-12-29 23:17:21.750 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 4
+2019-12-29 23:17:24.751 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 5
+2019-12-29 23:17:27.748 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 6
+2019-12-29 23:17:30.748 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 7
+slurmstepd: error: *** STEP 27098348.0 ON nid01904 CANCELLED AT 2019-12-29T23:17:32 ***
+2019-12-29 23:17:33.749 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 8
+2019-12-29 23:17:36.751 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 9
+2019-12-29 23:17:36.751 [IPControllerApp] heartbeat::missed b'c1aa6f64-bb08ae4a10241370ca6d89ad' : 1
+srun: error: nid01904: task 0: Terminated
+srun: Force Terminated job step 27098348.0
+[+] ------END TIME (ET) Sun Dec 29 23:17:39 PST 2019------
+2019-12-29 23:17:39.750 [IPControllerApp] heartbeat::missed b'2d8bace2-3a35717a74c6624c6828ca87' : 10
+2019-12-29 23:17:39.750 [IPControllerApp] heartbeat::missed b'c1aa6f64-bb08ae4a10241370ca6d89ad' : 2

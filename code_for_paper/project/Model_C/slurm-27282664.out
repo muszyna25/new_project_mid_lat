@@ -1,0 +1,54 @@
+[+] ------START TIME (ST): Tue Jan  7 23:20:47 PST 2020------
+Start cluster...
+Launching controller
+2020-01-07 23:20:50.004 [IPControllerApp] Hub listening on tcp://10.128.6.168:59545 for registration.
+2020-01-07 23:20:50.010 [IPControllerApp] Hub using DB backend: 'DictDB'
+2020-01-07 23:20:50.266 [IPControllerApp] hub::created hub
+2020-01-07 23:20:50.277 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27282664-client.json
+2020-01-07 23:20:50.292 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27282664-engine.json
+2020-01-07 23:20:50.311 [IPControllerApp] task::using Python leastload Task scheduler
+2020-01-07 23:20:50.315 [IPControllerApp] Heartmonitor started
+2020-01-07 23:20:50.337 [scheduler] Scheduler started [leastload]
+2020-01-07 23:20:50.342 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_27282664.pid
+2020-01-07 23:20:50.352 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2020-01-07 23:20:50.359 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+Launching engines
+2020-01-07 23:21:22.822 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27282664-engine.json'
+2020-01-07 23:21:22.827 [IPControllerApp] client::client b'e484c5b4-94fc56d1160492f42b5a42d7' requested 'registration_request'
+2020-01-07 23:21:22.826 [IPEngineApp] Registering with controller at tcp://10.128.6.168:59545
+2020-01-07 23:21:22.933 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-07 23:21:22.969 [IPEngineApp] Completed registration with id 0
+2020-01-07 23:21:23.285 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27282664-engine.json'
+2020-01-07 23:21:23.291 [IPControllerApp] client::client b'60e0aabe-8e7a0e1d55187f6a70ad5d53' requested 'registration_request'
+2020-01-07 23:21:23.289 [IPEngineApp] Registering with controller at tcp://10.128.6.168:59545
+2020-01-07 23:21:23.420 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27282664-engine.json'
+2020-01-07 23:21:23.426 [IPControllerApp] client::client b'3cc47458-ba9c4b686490c72a9e9db217' requested 'registration_request'
+2020-01-07 23:21:23.436 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27282664-engine.json'
+2020-01-07 23:21:23.438 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-07 23:21:23.441 [IPControllerApp] client::client b'51cd4cc2-923e5740356ab1495b37309d' requested 'registration_request'
+2020-01-07 23:21:23.461 [IPEngineApp] Completed registration with id 1
+2020-01-07 23:21:23.424 [IPEngineApp] Registering with controller at tcp://10.128.6.168:59545
+2020-01-07 23:21:23.440 [IPEngineApp] Registering with controller at tcp://10.128.6.168:59545
+2020-01-07 23:21:23.565 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-07 23:21:23.582 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-07 23:21:23.607 [IPEngineApp] Completed registration with id 2
+2020-01-07 23:21:23.613 [IPEngineApp] Completed registration with id 3
+2020-01-07 23:21:24.352 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_27282664-engine.json'
+2020-01-07 23:21:24.357 [IPEngineApp] Registering with controller at tcp://10.128.6.168:59545
+2020-01-07 23:21:24.358 [IPControllerApp] client::client b'cf7407d2-637d5fcfdb5cded90e524582' requested 'registration_request'
+2020-01-07 23:21:24.499 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-01-07 23:21:24.523 [IPEngineApp] Completed registration with id 4
+2020-01-07 23:21:26.318 [IPControllerApp] registration::finished registering engine 0:e484c5b4-94fc56d1160492f42b5a42d7
+2020-01-07 23:21:26.320 [IPControllerApp] engine::Engine Connected: 0
+2020-01-07 23:21:29.319 [IPControllerApp] registration::finished registering engine 2:3cc47458-ba9c4b686490c72a9e9db217
+2020-01-07 23:21:29.325 [IPControllerApp] engine::Engine Connected: 2
+2020-01-07 23:21:29.349 [IPControllerApp] registration::finished registering engine 3:51cd4cc2-923e5740356ab1495b37309d
+2020-01-07 23:21:29.352 [IPControllerApp] engine::Engine Connected: 3
+2020-01-07 23:21:29.360 [IPControllerApp] registration::finished registering engine 4:cf7407d2-637d5fcfdb5cded90e524582
+2020-01-07 23:21:29.366 [IPControllerApp] engine::Engine Connected: 4
+2020-01-07 23:21:29.375 [IPControllerApp] registration::finished registering engine 1:60e0aabe-8e7a0e1d55187f6a70ad5d53
+2020-01-07 23:21:29.379 [IPControllerApp] engine::Engine Connected: 1
+slurmstepd: error: *** STEP 27282664.0 ON nid01691 CANCELLED AT 2020-01-07T23:21:44 ***
+2020-01-07 23:21:44.247 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+srun: got SIGCONT
+2020-01-07 23:21:44.265 [IPControllerApp] CRITICAL | terminating children...

@@ -1,0 +1,17 @@
+[+] ------START TIME (ST): Fri Dec 20 17:20:27 PST 2019------
+Start cluster...
+/var/spool/slurmd/job26906661/slurm_script: line 26: ./startCluster.sh: No such file or directory
+Model_A_2 41 241
+Job id: 26906661; Cluster id: cori_26906661
+Waiting for connection file: /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_26906661-client.json
+Traceback (most recent call last):
+  File "test_ipyparallel.py", line 187, in <module>
+    job_id, cluster_id, c = setup_cluster(model_name)
+  File "test_ipyparallel.py", line 28, in setup_cluster
+    c = ipp.Client(timeout=60, cluster_id=cluster_id)
+  File "/usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/ipyparallel/client/client.py", line 417, in __init__
+    raise IOError(msg)
+OSError: Connection file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_26906661-client.json' not found.
+You have attempted to connect to an IPython Cluster but no Controller could be found.
+Please double-check your configuration and ensure that a cluster is running.
+[+] ------END TIME (ET) Fri Dec 20 17:23:42 PST 2019------

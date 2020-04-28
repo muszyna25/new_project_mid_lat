@@ -1,0 +1,64 @@
+[+] ------START TIME (ST): Mon Dec 23 17:42:57 PST 2019------
+Start cluster...
+Launching controller
+2019-12-23 17:43:05.053 [IPControllerApp] Hub listening on tcp://10.128.23.225:39609 for registration.
+2019-12-23 17:43:05.065 [IPControllerApp] Hub using DB backend: 'DictDB'
+2019-12-23 17:43:05.327 [IPControllerApp] hub::created hub
+2019-12-23 17:43:05.328 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_26955644-client.json
+2019-12-23 17:43:05.363 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_26955644-engine.json
+2019-12-23 17:43:05.382 [IPControllerApp] task::using Python leastload Task scheduler
+2019-12-23 17:43:05.384 [IPControllerApp] Heartmonitor started
+2019-12-23 17:43:05.432 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_26955644.pid
+2019-12-23 17:43:05.447 [scheduler] Scheduler started [leastload]
+2019-12-23 17:43:05.454 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2019-12-23 17:43:05.455 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+Launching engines
+2019-12-23 17:43:44.757 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_26955644-engine.json'
+2019-12-23 17:43:44.792 [IPControllerApp] client::client b'5a387ca0-86c901f17e1261e56a666777' requested 'registration_request'
+2019-12-23 17:43:44.783 [IPEngineApp] Registering with controller at tcp://10.128.23.225:39609
+2019-12-23 17:43:45.081 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-12-23 17:43:45.122 [IPEngineApp] Completed registration with id 0
+2019-12-23 17:43:47.467 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_26955644-engine.json'
+2019-12-23 17:43:47.496 [IPEngineApp] Registering with controller at tcp://10.128.23.225:39609
+2019-12-23 17:43:47.505 [IPControllerApp] client::client b'75525813-1dba57fdfdba8b50536e2752' requested 'registration_request'
+2019-12-23 17:43:47.795 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-12-23 17:43:47.857 [IPEngineApp] Completed registration with id 1
+2019-12-23 17:43:50.389 [IPControllerApp] registration::finished registering engine 0:5a387ca0-86c901f17e1261e56a666777
+2019-12-23 17:43:50.391 [IPControllerApp] engine::Engine Connected: 0
+2019-12-23 17:43:53.388 [IPControllerApp] registration::finished registering engine 1:75525813-1dba57fdfdba8b50536e2752
+2019-12-23 17:43:53.390 [IPControllerApp] engine::Engine Connected: 1
+2019-12-23 17:44:24.440 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2019-12-23 17:44:24.441 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+Model_A_2 41 241 20
+Job id: 26955644; Cluster id: cori_26955644
+Worker IDs: [0, 1]
+Original order  ['2_train_0_.h5\n', '2_train_1_.h5\n', '2_train_2_.h5\n', '2_train_3_.h5\n', '2_train_4_.h5\n', '2_train_5_.h5\n', '2_train_6_.h5\n', '2_train_7_.h5\n', '2_train_8_.h5\n', '2_train_9_.h5\n', '2_train_10_.h5\n', '2_train_11_.h5\n', '2_train_12_.h5\n', '2_train_13_.h5\n', '2_train_14_.h5\n', '2_train_15_.h5\n', '2_train_16_.h5\n', '2_train_17_.h5\n', '2_train_18_.h5\n', '2_train_19_.h5\n'] ['2_val_0_.h5\n', '2_val_1_.h5\n', '2_val_2_.h5\n', '2_val_3_.h5\n', '2_val_4_.h5\n', '2_val_5_.h5\n', '2_val_6_.h5\n', '2_val_7_.h5\n', '2_val_8_.h5\n', '2_val_9_.h5\n', '2_val_10_.h5\n', '2_val_11_.h5\n', '2_val_12_.h5\n', '2_val_13_.h5\n', '2_val_14_.h5\n', '2_val_15_.h5\n', '2_val_16_.h5\n', '2_val_17_.h5\n', '2_val_18_.h5\n', '2_val_19_.h5\n']
+Shuffled files: None None
+/global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644
+['ihp', 'n_hpo_trials', 'n_convs_layers', 'conv_sizes', 'n_fc_layers', 'fc_sizes', 'dropout', 'optimizer', 'lr', 'batch_sizes', 'n_epochs', 'repeats_conv', 'recep_fields', 'checkpoint_dir']
+Hyperparameter trial 0 conv [ 8  8 16 64 64] fc [512 256 256] dropout 0.3613 opt Adam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_0.h5
+Hyperparameter trial 1 conv [16 64 64 64 64] fc [512 256 128] dropout 0.1684 opt Nadam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_1.h5
+Hyperparameter trial 2 conv [ 8 16 32 32 64] fc [64 64 32] dropout 0.2433 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_2.h5
+Hyperparameter trial 3 conv [ 8  8  8 16 32] fc [128 128  32] dropout 0.4003 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_3.h5
+Hyperparameter trial 4 conv [ 8 32 32 64 64] fc [512 512  32] dropout 0.3431 opt Adam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_4.h5
+Hyperparameter trial 5 conv [ 8 16 16 16 16] fc [512  16  16] dropout 0.2300 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_5.h5
+Hyperparameter trial 6 conv [ 8  8 16 64 64] fc [256  32  32] dropout 0.1154 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_6.h5
+Hyperparameter trial 7 conv [ 8 16 32 64 64] fc [256 128 128] dropout 0.3537 opt Nadam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_7.h5
+Hyperparameter trial 8 conv [ 8 16 32 64 64] fc [512 256 256] dropout 0.4836 opt Adam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_8.h5
+Hyperparameter trial 9 conv [16 32 64 64 64] fc [256 256  64] dropout 0.3611 opt Nadam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_A_2/26955644/model_9.h5
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 26955644.0 ON nid06066 CANCELLED AT 2019-12-23T17:48:31 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
+2019-12-23 17:48:31.878 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2019-12-23 17:48:31.879 [IPControllerApp] CRITICAL | terminating children...

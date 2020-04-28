@@ -1,0 +1,264 @@
+[+] ------START TIME (ST): Wed Oct  2 23:24:02 PDT 2019------
+Start cluster...
+Python 3.6.9 :: Anaconda, Inc.
+Launching controller
+2019-10-02 23:24:10.059 [IPControllerApp] Hub listening on tcp://10.128.13.96:59013 for registration.
+2019-10-02 23:24:10.071 [IPControllerApp] Hub using DB backend: 'DictDB'
+2019-10-02 23:24:10.333 [IPControllerApp] hub::created hub
+2019-10-02 23:24:10.334 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-client.json
+2019-10-02 23:24:10.365 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json
+2019-10-02 23:24:10.381 [IPControllerApp] task::using Python leastload Task scheduler
+2019-10-02 23:24:10.383 [IPControllerApp] Heartmonitor started
+2019-10-02 23:24:10.434 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_24977547.pid
+2019-10-02 23:24:10.445 [scheduler] Scheduler started [leastload]
+2019-10-02 23:24:10.452 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2019-10-02 23:24:10.453 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+Launching engines
+2019-10-02 23:24:40.155 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:40.189 [IPControllerApp] client::client b'c2fdc005-1c5a8c82db8486253d4edb4a' requested 'registration_request'
+2019-10-02 23:24:40.180 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:40.598 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:40.644 [IPEngineApp] Completed registration with id 0
+2019-10-02 23:24:42.851 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:42.878 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:42.886 [IPControllerApp] client::client b'886e302f-cac92eff56f1589b4f809a55' requested 'registration_request'
+2019-10-02 23:24:43.063 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:43.090 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:43.099 [IPControllerApp] client::client b'98518763-6b01ea1f12f10653e32aa604' requested 'registration_request'
+2019-10-02 23:24:43.105 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:43.118 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:43.121 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:43.133 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:43.140 [IPControllerApp] client::client b'6d1f2e51-41cd0f0f3f6d3ba1563a90f6' requested 'registration_request'
+2019-10-02 23:24:43.146 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:43.149 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:43.154 [IPControllerApp] client::client b'd3380331-da29828ef57eca734f963244' requested 'registration_request'
+2019-10-02 23:24:43.159 [IPControllerApp] client::client b'e5724ba5-1ff10d8e3d335a33bcdffd4e' requested 'registration_request'
+2019-10-02 23:24:43.173 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:43.202 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:43.210 [IPControllerApp] client::client b'c6a441f1-75ca3ca76fb50355047eaf74' requested 'registration_request'
+2019-10-02 23:24:43.219 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:43.247 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:43.256 [IPControllerApp] client::client b'01bb257c-c657aec7954e053a4e23055d' requested 'registration_request'
+2019-10-02 23:24:43.375 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:43.384 [IPControllerApp] registration::finished registering engine 0:c2fdc005-1c5a8c82db8486253d4edb4a
+2019-10-02 23:24:43.386 [IPControllerApp] engine::Engine Connected: 0
+2019-10-02 23:24:43.416 [IPEngineApp] Completed registration with id 1
+2019-10-02 23:24:43.597 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:43.609 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:43.630 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:43.637 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:43.645 [IPControllerApp] client::client b'850983de-b478a38dc8bd433103e0fd28' requested 'registration_request'
+2019-10-02 23:24:43.645 [IPEngineApp] Completed registration with id 2
+2019-10-02 23:24:43.650 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:43.657 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:43.673 [IPEngineApp] Completed registration with id 3
+2019-10-02 23:24:43.682 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:43.693 [IPEngineApp] Completed registration with id 4
+2019-10-02 23:24:43.698 [IPEngineApp] Completed registration with id 5
+2019-10-02 23:24:43.722 [IPEngineApp] Completed registration with id 6
+2019-10-02 23:24:43.738 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:43.781 [IPEngineApp] Completed registration with id 7
+2019-10-02 23:24:44.118 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:44.158 [IPEngineApp] Completed registration with id 8
+2019-10-02 23:24:45.063 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_24977547-engine.json'
+2019-10-02 23:24:45.090 [IPEngineApp] Registering with controller at tcp://10.128.13.96:59013
+2019-10-02 23:24:45.098 [IPControllerApp] client::client b'ec2ba186-8732d9709fea3533e65c2247' requested 'registration_request'
+2019-10-02 23:24:45.476 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2019-10-02 23:24:45.519 [IPEngineApp] Completed registration with id 9
+2019-10-02 23:24:46.385 [IPControllerApp] registration::finished registering engine 2:98518763-6b01ea1f12f10653e32aa604
+2019-10-02 23:24:46.387 [IPControllerApp] engine::Engine Connected: 2
+2019-10-02 23:24:46.395 [IPControllerApp] registration::finished registering engine 5:e5724ba5-1ff10d8e3d335a33bcdffd4e
+2019-10-02 23:24:46.396 [IPControllerApp] engine::Engine Connected: 5
+2019-10-02 23:24:46.401 [IPControllerApp] registration::finished registering engine 1:886e302f-cac92eff56f1589b4f809a55
+2019-10-02 23:24:46.402 [IPControllerApp] engine::Engine Connected: 1
+2019-10-02 23:24:46.407 [IPControllerApp] registration::finished registering engine 3:6d1f2e51-41cd0f0f3f6d3ba1563a90f6
+2019-10-02 23:24:46.408 [IPControllerApp] engine::Engine Connected: 3
+2019-10-02 23:24:46.413 [IPControllerApp] registration::finished registering engine 4:d3380331-da29828ef57eca734f963244
+2019-10-02 23:24:46.414 [IPControllerApp] engine::Engine Connected: 4
+2019-10-02 23:24:49.387 [IPControllerApp] registration::finished registering engine 9:ec2ba186-8732d9709fea3533e65c2247
+2019-10-02 23:24:49.388 [IPControllerApp] engine::Engine Connected: 9
+2019-10-02 23:24:49.397 [IPControllerApp] registration::finished registering engine 6:c6a441f1-75ca3ca76fb50355047eaf74
+2019-10-02 23:24:49.398 [IPControllerApp] engine::Engine Connected: 6
+2019-10-02 23:24:49.403 [IPControllerApp] registration::finished registering engine 7:01bb257c-c657aec7954e053a4e23055d
+2019-10-02 23:24:49.405 [IPControllerApp] engine::Engine Connected: 7
+2019-10-02 23:24:49.410 [IPControllerApp] registration::finished registering engine 8:850983de-b478a38dc8bd433103e0fd28
+2019-10-02 23:24:49.412 [IPControllerApp] engine::Engine Connected: 8
+2019-10-02 23:25:28.123 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2019-10-02 23:25:28.124 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2019-10-02 23:25:28.363 [IPControllerApp] task::task 'debbfd70-f385a7a81a56fba54f037e93' arrived on 8
+Job id: 24977547; Cluster id: cori_24977547
+Worker IDs: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+['train_5.h5', 'train_0.h5', 'train_1.h5', 'train_6.h5', 'train_9.h5', 'train_7.h5', 'train_3.h5', 'train_8.h5', 'train_4.h5', 'train_2.h5']
+['val_0.h5', 'val_3.h5', 'val_5.h5', 'val_9.h5', 'val_4.h5', 'val_7.h5', 'val_6.h5', 'val_1.h5', 'val_8.h5', 'val_2.h5']
+/global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547
+['ihp', 'n_hpo_trials', 'n_convs_layers', 'conv_sizes', 'n_fc_layers', 'fc_sizes', 'dropout', 'optimizer', 'lr', 'batch_sizes', 'n_epochs', 'repeats_conv', 'recep_fields', 'checkpoint_dir']
+Hyperparameter trial 0 conv [ 8  8  8  8 16] fc [512 256 128] dropout 0.4234 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_0.h5
+Hyperparameter trial 1 conv [16 16 32 32 64] fc [512 512 128] dropout 0.4560 opt Adam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_1.h5
+Hyperparameter trial 2 conv [ 8  8 32 64 64] fc [512 256  64] dropout 0.2453 opt Adam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_2.h5
+Hyperparameter trial 3 conv [ 8 32 64 64 64] fc [512 256 256] dropout 0.4536 opt Nadam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_3.h5
+Hyperparameter trial 4 conv [ 8  8  8 16 16] fc [512 512 128] dropout 0.4349 opt Nadam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_4.h5
+Hyperparameter trial 5 conv [16 32 32 32 64] fc [256 128  64] dropout 0.1941 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_5.h5
+Hyperparameter trial 6 conv [ 8 16 16 16 32] fc [128 128  64] dropout 0.1197 opt Nadam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_6.h5
+Hyperparameter trial 7 conv [32 64 64 64 64] fc [512 256 128] dropout 0.1100 opt Nadam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_7.h5
+Hyperparameter trial 8 conv [ 8 16 16 32 64] fc [512 512 256] dropout 0.2752 opt Adam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_8.h5
+Hyperparameter trial 9 conv [ 8  8  8 64 64] fc [512 256 256] dropout 0.3935 opt Adam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977547/model_9.h5
+2019-10-02 23:25:28.414 [IPControllerApp] task::task '7c0a1196-a52d5ff5276248caaecc6000' arrived on 7
+2019-10-02 23:25:28.425 [IPControllerApp] task::task '4fbbbfe7-cfee6d4c31eb39752b45ad98' arrived on 6
+2019-10-02 23:25:28.439 [IPControllerApp] task::task 'cfd572e0-5bd47f02f51dcc484db5262e' arrived on 9
+2019-10-02 23:25:28.453 [IPControllerApp] task::task '55aba59d-a4f049ed9a0674e029f0bf3b' arrived on 4
+2019-10-02 23:25:28.467 [IPControllerApp] task::task '4094b11a-26a4f38d99142a9a22c979f1' arrived on 3
+2019-10-02 23:25:28.482 [IPControllerApp] task::task '522485bb-e1d322c551e31d10fd94a250' arrived on 1
+2019-10-02 23:25:28.491 [IPControllerApp] task::task '0aae1ef5-4f6e458901d405d65951f1a0' arrived on 5
+2019-10-02 23:25:28.500 [IPControllerApp] task::task '85f283a1-a5a6b4cfbb5103eb61e2452e' arrived on 2
+2019-10-02 23:25:28.509 [IPControllerApp] task::task '270773a6-1d54980085c68ef571445e6e' arrived on 0
+2019-10-02 23:25:40.623395: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:40.688377: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1399840000 Hz
+2019-10-02 23:25:40.757391: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63a60 executing computations on platform Host. Devices:
+2019-10-02 23:25:40.757497: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2019-10-02 23:25:49.086789: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:49.119340: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:49.170753: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1399995000 Hz
+2019-10-02 23:25:49.181368: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:49.204471: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1400120000 Hz
+2019-10-02 23:25:49.242356: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:49.243679: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63a60 executing computations on platform Host. Devices:
+2019-10-02 23:25:49.243818: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-02 23:25:49.263318: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1399965000 Hz
+2019-10-02 23:25:49.268974: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:49.273950: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63550 executing computations on platform Host. Devices:
+2019-10-02 23:25:49.274088: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-10-02 23:25:49.322482: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1399950000 Hz
+2019-10-02 23:25:49.332766: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:49.333213: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63550 executing computations on platform Host. Devices:
+2019-10-02 23:25:49.333354: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-10-02 23:25:49.353593: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1399990000 Hz
+2019-10-02 23:25:49.391542: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b631f0 executing computations on platform Host. Devices:
+2019-10-02 23:25:49.391669: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-10-02 23:25:49.416460: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1399945000 Hz
+2019-10-02 23:25:49.420066: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63a60 executing computations on platform Host. Devices:
+2019-10-02 23:25:49.420204: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-10-02 23:25:49.488165: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63a60 executing computations on platform Host. Devices:
+2019-10-02 23:25:49.488306: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-10-02 23:25:50.554769: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:50.634112: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1400100000 Hz
+2019-10-02 23:25:50.690998: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:50.701232: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63550 executing computations on platform Host. Devices:
+2019-10-02 23:25:50.701356: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-10-02 23:25:50.770474: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1399885000 Hz
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-10-02 23:25:50.838236: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63550 executing computations on platform Host. Devices:
+2019-10-02 23:25:50.838365: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2019-10-02 23:25:54.636981: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-10-02 23:25:54.718309: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1400040000 Hz
+2019-10-02 23:25:54.790382: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x555556b63a60 executing computations on platform Host. Devices:
+2019-10-02 23:25:54.790519: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.13.1-py36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.

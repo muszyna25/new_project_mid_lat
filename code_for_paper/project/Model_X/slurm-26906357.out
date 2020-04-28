@@ -1,0 +1,11 @@
+[+] ------START TIME (ST): Fri Dec 20 16:18:46 PST 2019------
+Start cluster...
+/var/spool/slurmd/job26906357/slurm_script: line 26: ./startCluster.sh: No such file or directory
+Traceback (most recent call last):
+  File "test_ipyparallel.py", line 17, in <module>
+    from model_code import get_job_id, save_hyper_params_to_csv
+  File "/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_X/model_code.py", line 468
+    file_path = 'saved_model.h5'
+              ^
+SyntaxError: invalid syntax
+[+] ------END TIME (ET) Fri Dec 20 16:19:53 PST 2019------

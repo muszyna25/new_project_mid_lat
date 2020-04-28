@@ -1,0 +1,12 @@
+[+] ------START TIME (ST): Wed Oct  2 17:52:35 PDT 2019------
+Start cluster...
+Python 3.6.9 :: Anaconda, Inc.
+Traceback (most recent call last):
+  File "test_ipyparallel.py", line 144, in <module>
+    job_id, cluster_id, c = setup_cluster(model_name)
+  File "test_ipyparallel.py", line 22, in setup_cluster
+    job_id = get_job_id('squeue -u muszyng -o %A -n ' + model_name)
+  File "/global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/hpo_code/cori-intml-examples/my_runs/streaming/testing_streamer/models/Model_0/model_code.py", line 273, in get_job_id
+    return int(result.stdout.splitlines()[1])
+IndexError: list index out of range
+[+] ------END TIME (ET) Wed Oct  2 17:54:01 PDT 2019------

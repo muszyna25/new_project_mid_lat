@@ -1,0 +1,13 @@
+[+] ------START TIME (ST): Wed Oct  2 18:26:12 PDT 2019------
+Start cluster...
+Python 3.6.9 :: Anaconda, Inc.
+Job id: 24977087; Cluster id: cori_24977087
+Worker IDs: [0, 1]
+['train_5.h5', 'train_0.h5', 'train_1.h5', 'train_6.h5', 'train_9.h5', 'train_7.h5', 'train_3.h5', 'train_8.h5', 'train_4.h5', 'train_2.h5']
+['val_0.h5', 'val_3.h5', 'val_5.h5', 'val_9.h5', 'val_4.h5', 'val_7.h5', 'val_6.h5', 'val_1.h5', 'val_8.h5', 'val_2.h5']
+/global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977087
+['ihp', 'n_hpo_trials', 'n_convs_layers', 'conv_sizes', 'n_fc_layers', 'fc_sizes', 'dropout', 'optimizer', 'lr', 'batch_sizes', 'n_epochs', 'repeats_conv', 'recep_fields', 'checkpoint_dir']
+Hyperparameter trial 0 conv [ 8 16 32 64 64] fc [512 512  64] dropout 0.2858 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977087/model_0.h5
+Hyperparameter trial 1 conv [16 16 64 64 64] fc [512 512 256] dropout 0.2814 opt Nadam, lr 0.0000, batch sizes 64
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/Model_0/24977087/model_1.h5

@@ -1,0 +1,527 @@
+[+] ------START TIME (ST): Thu Feb 27 00:11:56 PST 2020------
+Start cluster...
+Launching controller
+2020-02-27 00:11:59.175 [IPControllerApp] Hub listening on tcp://10.128.50.8:47999 for registration.
+2020-02-27 00:11:59.176 [IPControllerApp] Hub using DB backend: 'DictDB'
+2020-02-27 00:11:59.428 [IPControllerApp] hub::created hub
+2020-02-27 00:11:59.428 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28364413-client.json
+2020-02-27 00:11:59.446 [IPControllerApp] writing connection info to /global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28364413-engine.json
+2020-02-27 00:11:59.448 [IPControllerApp] task::using Python leastload Task scheduler
+2020-02-27 00:11:59.448 [IPControllerApp] Heartmonitor started
+2020-02-27 00:11:59.464 [IPControllerApp] Creating pid file: /global/u2/m/muszyng/.ipython/profile_default/pid/ipcontroller-cori_28364413.pid
+2020-02-27 00:11:59.465 [scheduler] Scheduler started [leastload]
+2020-02-27 00:11:59.467 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2020-02-27 00:11:59.467 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+Launching engines
+2020-02-27 00:12:35.558 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28364413-engine.json'
+2020-02-27 00:12:35.562 [IPControllerApp] client::client b'0d95ffb9-78854157a2c5135e22c50219' requested 'registration_request'
+2020-02-27 00:12:35.561 [IPEngineApp] Registering with controller at tcp://10.128.50.8:47999
+2020-02-27 00:12:35.615 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-27 00:12:35.624 [IPEngineApp] Completed registration with id 0
+2020-02-27 00:12:35.799 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28364413-engine.json'
+2020-02-27 00:12:35.803 [IPEngineApp] Registering with controller at tcp://10.128.50.8:47999
+2020-02-27 00:12:35.804 [IPControllerApp] client::client b'aeeaf93d-eb6397345051af53451bba7a' requested 'registration_request'
+2020-02-27 00:12:35.826 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28364413-engine.json'
+2020-02-27 00:12:35.830 [IPControllerApp] client::client b'aa00c67f-6e4954de109987901ce25d50' requested 'registration_request'
+2020-02-27 00:12:35.853 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-27 00:12:35.861 [IPEngineApp] Completed registration with id 1
+2020-02-27 00:12:35.829 [IPEngineApp] Registering with controller at tcp://10.128.50.8:47999
+2020-02-27 00:12:35.877 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-27 00:12:35.884 [IPEngineApp] Completed registration with id 2
+2020-02-27 00:12:36.741 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28364413-engine.json'
+2020-02-27 00:12:36.745 [IPEngineApp] Registering with controller at tcp://10.128.50.8:47999
+2020-02-27 00:12:36.747 [IPControllerApp] client::client b'44fe1198-7cccc68ce2ccc0d884236148' requested 'registration_request'
+2020-02-27 00:12:36.803 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-27 00:12:36.813 [IPEngineApp] Completed registration with id 3
+2020-02-27 00:12:36.833 [IPEngineApp] Loading url_file '/global/u2/m/muszyng/.ipython/profile_default/security/ipcontroller-cori_28364413-engine.json'
+2020-02-27 00:12:36.837 [IPEngineApp] Registering with controller at tcp://10.128.50.8:47999
+2020-02-27 00:12:36.839 [IPControllerApp] client::client b'e65ce5cc-1935d6aa2fddc43a83383db3' requested 'registration_request'
+2020-02-27 00:12:36.899 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2020-02-27 00:12:36.908 [IPEngineApp] Completed registration with id 4
+2020-02-27 00:12:41.452 [IPControllerApp] registration::finished registering engine 4:e65ce5cc-1935d6aa2fddc43a83383db3
+2020-02-27 00:12:41.452 [IPControllerApp] engine::Engine Connected: 4
+2020-02-27 00:12:41.456 [IPControllerApp] registration::finished registering engine 3:44fe1198-7cccc68ce2ccc0d884236148
+2020-02-27 00:12:41.456 [IPControllerApp] engine::Engine Connected: 3
+2020-02-27 00:12:41.458 [IPControllerApp] registration::finished registering engine 2:aa00c67f-6e4954de109987901ce25d50
+2020-02-27 00:12:41.459 [IPControllerApp] engine::Engine Connected: 2
+2020-02-27 00:12:41.461 [IPControllerApp] registration::finished registering engine 0:0d95ffb9-78854157a2c5135e22c50219
+2020-02-27 00:12:41.461 [IPControllerApp] engine::Engine Connected: 0
+2020-02-27 00:12:41.463 [IPControllerApp] registration::finished registering engine 1:aeeaf93d-eb6397345051af53451bba7a
+2020-02-27 00:12:41.463 [IPControllerApp] engine::Engine Connected: 1
+2020-02-27 00:13:06.256 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2020-02-27 00:13:06.256 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+Model_A_4 81 281 20
+Job id: 28364413; Cluster id: cori_28364413
+Worker IDs: [0, 1, 2, 3, 4]
+Original order  ['4_train_0_.h5', '4_train_1_.h5', '4_train_2_.h5', '4_train_3_.h5', '4_train_4_.h5', '4_train_5_.h5', '4_train_6_.h5', '4_train_7_.h5', '4_train_8_.h5', '4_train_9_.h5', '4_train_10_.h5', '4_train_11_.h5', '4_train_12_.h5', '4_train_13_.h5', '4_train_14_.h5', '4_train_15_.h5', '4_train_16_.h5', '4_train_17_.h5', '4_train_18_.h5', '4_train_19_.h5'] ['4_val_0_.h5', '4_val_1_.h5', '4_val_2_.h5', '4_val_3_.h5', '4_val_4_.h5', '4_val_5_.h5', '4_val_6_.h5', '4_val_7_.h5', '4_val_8_.h5', '4_val_9_.h5', '4_val_10_.h5', '4_val_11_.h5', '4_val_12_.h5', '4_val_13_.h5', '4_val_14_.h5', '4_val_15_.h5', '4_val_16_.h5', '4_val_17_.h5', '4_val_18_.h5', '4_val_19_.h5']
+Shuffled files: ['4_train_7_.h5', '4_train_3_.h5', '4_train_16_.h5', '4_train_12_.h5', '4_train_14_.h5', '4_train_0_.h5', '4_train_18_.h5', '4_train_9_.h5', '4_train_13_.h5', '4_train_2_.h5', '4_train_1_.h5', '4_train_15_.h5', '4_train_17_.h5', '4_train_19_.h5', '4_train_5_.h5', '4_train_8_.h5', '4_train_10_.h5', '4_train_4_.h5', '4_train_6_.h5', '4_train_11_.h5'] ['4_val_2_.h5', '4_val_13_.h5', '4_val_14_.h5', '4_val_10_.h5', '4_val_11_.h5', '4_val_9_.h5', '4_val_7_.h5', '4_val_3_.h5', '4_val_5_.h5', '4_val_18_.h5', '4_val_12_.h5', '4_val_1_.h5', '4_val_0_.h5', '4_val_17_.h5', '4_val_19_.h5', '4_val_15_.h5', '4_val_8_.h5', '4_val_16_.h5', '4_val_6_.h5', '4_val_4_.h5']
+/global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_A/Model_A_4/28364413
+['ihp', 'n_hpo_trials', 'n_convs_layers', 'conv_sizes', 'n_fc_layers', 'fc_sizes', 'dropout', 'optimizer', 'lr', 'batch_sizes', 'n_epochs', 'repeats_conv', 'recep_fields', 'checkpoint_dir']
+Hyperparameter trial 0 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1136 opt Adam, lr 0.0000, batch sizes 256
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_A/Model_A_4/28364413/model_0.h5
+Hyperparameter trial 1 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1388 opt Adam, lr 0.0000, batch sizes 32
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_A/Model_A_4/28364413/model_1.h5
+Hyperparameter trial 2 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1135 opt Adam, lr 0.0000, batch sizes 32
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_A/Model_A_4/28364413/model_2.h5
+Hyperparameter trial 3 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1071 opt Adam, lr 0.0000, batch sizes 32
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_A/Model_A_4/28364413/model_3.h5
+Hyperparameter trial 4 conv [ 64 128 256 512] fc [256 128  64] dropout 0.1389 opt Adam, lr 0.0000, batch sizes 128
+Checkpoint file: /global/cscratch1/sd/muszyng/cnn_model_runs/regression/Model_A/Model_A_4/28364413/model_4.h5
+2020-02-27 00:13:06.321 [IPControllerApp] task::task 'ce685005-c1d916d05d92530b5dcfafbc' arrived on 1
+2020-02-27 00:13:06.322 [IPControllerApp] task::task 'd173afbd-dd81cea4dcd14fc269d0b7e1' arrived on 0
+2020-02-27 00:13:06.325 [IPControllerApp] task::task '7278ed01-03598285f975685ae135a030' arrived on 2
+2020-02-27 00:13:06.327 [IPControllerApp] task::task '18a2dffe-5724cbe8008e0927c19fecd0' arrived on 3
+2020-02-27 00:13:06.328 [IPControllerApp] task::task 'a2229eff-5e32ab76c736e33861618d64' arrived on 4
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-27 00:13:08.710609: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-27 00:13:08.738195: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299885000 Hz
+2020-02-27 00:13:08.740121: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558dee600 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-27 00:13:08.740137: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-27 00:13:12.155761: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-27 00:13:12.177133: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299835000 Hz
+2020-02-27 00:13:12.178840: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558df3510 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-27 00:13:12.178855: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-27 00:13:12.349182: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-27 00:13:12.370900: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300130000 Hz
+2020-02-27 00:13:12.372583: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558df4310 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-27 00:13:12.372596: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-27 00:13:13.817705: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-27 00:13:13.838597: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2020-02-27 00:13:13.840143: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558df4310 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-27 00:13:13.840157: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+WARNING:tensorflow:From test_ipyparallel.py:101: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:39: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /global/u2/m/muszyng/project-cnn-tda/cnn-project/my_project/new_project_mid_lat/code_for_paper/project/Model_A/Model_A_regres/mlextras.py:43: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-02-27 00:13:16.112787: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-27 00:13:16.138483: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300035000 Hz
+2020-02-27 00:13:16.140363: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555558df3510 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-02-27 00:13:16.140377: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /usr/common/software/tensorflow/intel-tensorflow/1.15.0-py37/lib/python3.7/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+2020-02-27 01:52:05.452 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 1
+2020-02-27 01:52:59.161 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 1
+2020-02-27 01:52:59.165 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 1
+2020-02-27 01:52:59.166 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 1
+2020-02-27 01:52:59.168 [IPControllerApp] WARNING | heartbeat::heart b'e65ce5cc-1935d6aa2fddc43a83383db3' missed a beat, and took 56717.77 ms to respond
+2020-02-27 01:52:59.169 [IPControllerApp] WARNING | heartbeat::heart b'aeeaf93d-eb6397345051af53451bba7a' missed a beat, and took 56718.85 ms to respond
+2020-02-27 01:52:59.170 [IPControllerApp] WARNING | heartbeat::heart b'44fe1198-7cccc68ce2ccc0d884236148' missed a beat, and took 56719.83 ms to respond
+2020-02-27 01:52:59.171 [IPControllerApp] WARNING | heartbeat::heart b'aa00c67f-6e4954de109987901ce25d50' missed a beat, and took 56720.84 ms to respond
+2020-02-27 02:59:32.509 [IPControllerApp] task::task '18a2dffe-5724cbe8008e0927c19fecd0' finished on 3
+2020-02-27 02:59:34.086 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 03:26:15.471 [IPControllerApp] task::task 'a2229eff-5e32ab76c736e33861618d64' finished on 4
+2020-02-27 03:26:15.499 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 03:31:48.005 [IPControllerApp] task::task 'ce685005-c1d916d05d92530b5dcfafbc' finished on 1
+IOStream.flush timed out
+IOStream.flush timed out
+IOStream.flush timed out
+2020-02-27 03:31:48.564 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 03:38:48.966 [IPControllerApp] task::task 'd173afbd-dd81cea4dcd14fc269d0b7e1' finished on 0
+2020-02-27 03:38:49.727 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:04:53.934 [IPControllerApp] task::task '7278ed01-03598285f975685ae135a030' finished on 2
+2020-02-27 04:04:55.189 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:34:17.452 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 1
+2020-02-27 04:34:18.788 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:34:59.421 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 1
+2020-02-27 04:34:21.799 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:34:24.809 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:34:59.422 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 1
+2020-02-27 04:34:27.818 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:34:59.422 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 1
+2020-02-27 04:34:30.829 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:34:33.839 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:34:36.848 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:34:39.859 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:34:42.869 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:34:45.879 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:34:48.888 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:34:51.899 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:34:54.908 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:34:57.918 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:34:59.448 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 2
+2020-02-27 04:34:59.449 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 2
+2020-02-27 04:34:59.449 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 2
+2020-02-27 04:34:59.449 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 2
+2020-02-27 04:35:02.451 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 3
+2020-02-27 04:35:02.452 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 3
+2020-02-27 04:35:02.452 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 3
+2020-02-27 04:35:02.452 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 3
+2020-02-27 04:35:05.452 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 4
+2020-02-27 04:35:05.452 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 4
+2020-02-27 04:35:05.452 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 4
+2020-02-27 04:35:05.452 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 4
+2020-02-27 04:35:08.452 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 5
+2020-02-27 04:35:08.452 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 5
+2020-02-27 04:35:08.452 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 5
+2020-02-27 04:35:08.452 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 5
+2020-02-27 04:35:09.276 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15735.004093885422' (current=15789.004)
+2020-02-27 04:35:09.278 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15735.004093885422' (current=15789.004)
+2020-02-27 04:35:09.279 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15735.004093885422' (current=15789.004)
+2020-02-27 04:35:09.279 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15735.004093885422' (current=15789.004)
+2020-02-27 04:35:09.279 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15738.003876924515' (current=15789.004)
+2020-02-27 04:35:09.279 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15738.003876924515' (current=15789.004)
+2020-02-27 04:35:09.279 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15738.003876924515' (current=15789.004)
+2020-02-27 04:35:09.280 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15738.003876924515' (current=15789.004)
+2020-02-27 04:35:09.280 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15780.000532865524' (current=15789.004)
+2020-02-27 04:35:09.280 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15780.000532865524' (current=15789.004)
+2020-02-27 04:35:09.280 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15780.000532865524' (current=15789.004)
+2020-02-27 04:35:09.280 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15780.000532865524' (current=15789.004)
+2020-02-27 04:35:09.281 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15783.003628969193' (current=15789.004)
+2020-02-27 04:35:09.281 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15783.003628969193' (current=15789.004)
+2020-02-27 04:35:09.281 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15783.003628969193' (current=15789.004)
+2020-02-27 04:35:09.281 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'15783.003628969193' (current=15789.004)
+2020-02-27 04:35:09.281 [IPControllerApp] WARNING | heartbeat::heart b'aeeaf93d-eb6397345051af53451bba7a' missed a beat, and took 3829.83 ms to respond
+2020-02-27 04:35:09.282 [IPControllerApp] WARNING | heartbeat::heart b'44fe1198-7cccc68ce2ccc0d884236148' missed a beat, and took 3830.02 ms to respond
+2020-02-27 04:35:09.282 [IPControllerApp] WARNING | heartbeat::heart b'aa00c67f-6e4954de109987901ce25d50' missed a beat, and took 3830.21 ms to respond
+2020-02-27 04:35:09.282 [IPControllerApp] WARNING | heartbeat::heart b'e65ce5cc-1935d6aa2fddc43a83383db3' missed a beat, and took 3830.40 ms to respond
+2020-02-27 04:34:16.017 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:34:19.027 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:34:22.036 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:34:25.047 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:34:28.056 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:34:31.067 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:34:34.077 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:34:37.087 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:34:40.097 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:34:43.106 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:34:46.117 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:34:49.127 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:34:52.137 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:34:55.147 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:34:58.157 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:35:01.166 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 04:35:04.177 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 04:35:07.186 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-27 04:34:17.063 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:34:20.073 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:34:23.082 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:34:26.093 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:34:29.102 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:34:32.112 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:34:35.123 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:34:38.132 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:34:41.142 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:34:44.152 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:34:47.163 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:34:50.172 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:34:53.182 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:34:56.193 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:34:59.202 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:35:02.213 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 04:35:05.223 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 04:35:08.232 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-27 04:34:16.967 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:34:19.975 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:34:22.987 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:34:25.995 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:34:29.007 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:34:32.015 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:34:35.027 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:34:38.035 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:34:41.047 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:34:44.055 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:34:47.067 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:34:50.075 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:34:53.087 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:34:56.095 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:34:59.107 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:35:02.115 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 04:35:05.127 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 04:35:08.135 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-27 04:34:16.041 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:34:19.050 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:34:22.060 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:34:25.071 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:34:28.080 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:34:31.090 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:34:34.101 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:34:37.110 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:34:40.120 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:34:43.131 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:34:46.140 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:34:49.150 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:34:52.161 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:34:55.170 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:34:58.180 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:35:01.191 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 04:35:04.200 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 04:35:07.210 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-27 04:58:26.452 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 1
+2020-02-27 04:58:26.598 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:59:09.403 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 1
+2020-02-27 04:58:29.609 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:59:09.405 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 1
+2020-02-27 04:58:32.619 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:59:09.405 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 1
+2020-02-27 04:58:35.629 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:58:38.639 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:58:41.648 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:58:44.659 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:58:47.669 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:58:50.678 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:58:53.689 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:58:56.699 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:58:59.709 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:59:02.719 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:59:05.728 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:59:08.739 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:59:11.451 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 2
+2020-02-27 04:59:11.451 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 2
+2020-02-27 04:59:11.452 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 2
+2020-02-27 04:59:11.452 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 2
+2020-02-27 04:59:14.452 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 3
+2020-02-27 04:59:14.452 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 3
+2020-02-27 04:59:14.452 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 3
+2020-02-27 04:59:14.452 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 3
+2020-02-27 04:58:23.851 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:58:26.860 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:58:29.871 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:58:32.880 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:58:35.890 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:58:38.901 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:58:41.910 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:58:44.920 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:58:47.931 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:58:50.941 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:58:53.950 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:58:56.960 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:58:59.971 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:59:02.980 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:59:05.991 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:59:09.001 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 04:59:12.010 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 04:59:15.021 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-27 04:59:17.212 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'17184.003588438034' (current=17235.004)
+2020-02-27 04:59:17.213 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'17184.003588438034' (current=17235.004)
+2020-02-27 04:59:17.213 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'17184.003588438034' (current=17235.004)
+2020-02-27 04:59:17.213 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'17184.003588438034' (current=17235.004)
+2020-02-27 04:59:17.213 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'17187.004151821136' (current=17235.004)
+2020-02-27 04:59:17.213 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'17187.004151821136' (current=17235.004)
+2020-02-27 04:59:17.214 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'17187.004151821136' (current=17235.004)
+2020-02-27 04:59:17.214 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'17187.004151821136' (current=17235.004)
+2020-02-27 04:59:17.214 [IPControllerApp] WARNING | heartbeat::heart b'e65ce5cc-1935d6aa2fddc43a83383db3' missed a beat, and took 5762.76 ms to respond
+2020-02-27 04:59:17.214 [IPControllerApp] WARNING | heartbeat::heart b'aeeaf93d-eb6397345051af53451bba7a' missed a beat, and took 5762.95 ms to respond
+2020-02-27 04:59:17.214 [IPControllerApp] WARNING | heartbeat::heart b'aa00c67f-6e4954de109987901ce25d50' missed a beat, and took 5763.17 ms to respond
+2020-02-27 04:59:17.215 [IPControllerApp] WARNING | heartbeat::heart b'44fe1198-7cccc68ce2ccc0d884236148' missed a beat, and took 5763.35 ms to respond
+2020-02-27 04:58:23.827 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:58:26.836 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:58:29.847 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:58:32.857 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:58:35.866 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:58:38.876 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:58:41.887 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:58:44.897 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:58:47.907 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:58:50.917 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:58:53.926 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:58:56.937 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:58:59.947 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:59:02.957 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:59:05.967 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:59:08.977 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 04:59:11.986 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 04:59:14.997 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-27 04:58:24.873 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:58:27.882 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:58:30.893 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:58:33.902 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:58:36.913 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:58:39.923 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:58:42.932 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:58:45.943 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:58:48.953 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:58:51.962 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:58:54.973 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:58:57.983 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:59:00.992 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:59:04.003 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:59:07.013 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:59:10.021 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 04:59:13.032 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 04:59:16.043 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-27 04:58:24.775 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 04:58:27.787 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 04:58:30.795 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 04:58:33.807 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 04:58:36.815 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 04:58:39.827 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 04:58:42.835 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 04:58:45.847 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 04:58:48.855 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 04:58:51.867 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 04:58:54.875 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 04:58:57.887 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 04:59:00.895 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 04:59:03.907 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 04:59:06.915 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 04:59:09.927 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 04:59:12.935 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 04:59:15.947 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2020-02-27 06:02:35.452 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 1
+2020-02-27 06:02:36.389 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 06:03:19.638 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 1
+2020-02-27 06:02:39.399 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 06:03:19.645 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 1
+2020-02-27 06:02:42.408 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 06:03:19.646 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 1
+2020-02-27 06:02:45.419 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 06:02:48.429 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 06:02:51.438 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 06:02:54.449 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 06:02:57.458 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 06:03:19.646 [IPControllerApp] WARNING | heartbeat::heart b'aeeaf93d-eb6397345051af53451bba7a' missed a beat, and took 47194.01 ms to respond
+2020-02-27 06:03:00.468 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 06:03:03.479 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 06:03:19.646 [IPControllerApp] WARNING | heartbeat::heart b'aa00c67f-6e4954de109987901ce25d50' missed a beat, and took 47194.39 ms to respond
+2020-02-27 06:03:06.489 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 06:03:09.498 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 06:03:12.509 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 06:03:19.647 [IPControllerApp] WARNING | heartbeat::heart b'44fe1198-7cccc68ce2ccc0d884236148' missed a beat, and took 47194.60 ms to respond
+2020-02-27 06:03:15.518 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 06:03:18.528 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 06:03:20.449 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 2
+2020-02-27 06:03:23.452 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 1
+2020-02-27 06:03:23.452 [IPControllerApp] heartbeat::missed b'e65ce5cc-1935d6aa2fddc43a83383db3' : 3
+2020-02-27 06:03:23.452 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 1
+2020-02-27 06:03:23.452 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 1
+2020-02-27 06:03:25.404 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'21033.0041680336' (current=21084.004)
+2020-02-27 06:03:25.405 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'21036.00377178192' (current=21084.004)
+2020-02-27 06:03:25.405 [IPControllerApp] WARNING | heartbeat::heart b'e65ce5cc-1935d6aa2fddc43a83383db3' missed a beat, and took 4955.91 ms to respond
+2020-02-27 06:03:26.449 [IPControllerApp] heartbeat::missed b'aeeaf93d-eb6397345051af53451bba7a' : 2
+2020-02-27 06:03:26.449 [IPControllerApp] heartbeat::missed b'44fe1198-7cccc68ce2ccc0d884236148' : 2
+2020-02-27 06:03:26.449 [IPControllerApp] heartbeat::missed b'aa00c67f-6e4954de109987901ce25d50' : 2
+2020-02-27 06:02:33.641 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 06:02:36.651 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 06:02:39.660 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 06:02:42.671 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 06:02:45.680 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 06:02:48.690 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 06:02:51.701 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 06:02:54.710 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 06:02:57.720 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 06:03:00.731 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 06:03:03.741 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 06:03:06.750 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 06:03:09.760 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 06:03:12.771 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 06:03:18.790 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 06:03:21.801 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 06:03:24.810 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 06:03:27.452 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'21036.00377178192' (current=21087.001)
+2020-02-27 06:03:27.452 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'21036.00377178192' (current=21087.001)
+2020-02-27 06:03:27.453 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'21036.00377178192' (current=21087.001)
+2020-02-27 06:03:27.453 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'21081.0010638237' (current=21087.001)
+2020-02-27 06:03:27.453 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'21081.0010638237' (current=21087.001)
+2020-02-27 06:03:27.453 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): b'21081.0010638237' (current=21087.001)
+2020-02-27 06:03:27.453 [IPControllerApp] WARNING | heartbeat::heart b'aa00c67f-6e4954de109987901ce25d50' missed a beat, and took 4001.66 ms to respond
+2020-02-27 06:03:27.454 [IPControllerApp] WARNING | heartbeat::heart b'aeeaf93d-eb6397345051af53451bba7a' missed a beat, and took 4001.89 ms to respond
+2020-02-27 06:03:27.454 [IPControllerApp] WARNING | heartbeat::heart b'44fe1198-7cccc68ce2ccc0d884236148' missed a beat, and took 4002.11 ms to respond
+2020-02-27 06:02:33.616 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 06:02:36.627 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 06:02:39.637 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 06:02:42.647 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 06:02:45.657 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 06:02:48.666 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 06:02:51.677 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 06:02:54.687 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 06:02:57.696 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 06:03:00.707 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 06:03:03.717 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 06:03:06.727 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 06:03:09.737 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 06:03:12.746 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 06:03:18.767 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 06:03:21.776 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 06:03:24.787 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 06:02:34.662 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 06:02:37.673 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 06:02:40.682 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 06:02:43.693 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 06:02:46.703 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 06:02:49.712 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 06:02:52.723 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 06:02:55.733 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 06:02:58.742 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 06:03:01.753 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 06:03:04.762 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 06:03:07.772 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 06:03:10.783 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 06:03:13.792 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 06:03:16.803 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2020-02-27 06:03:19.812 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2020-02-27 06:03:22.822 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2020-02-27 06:02:34.567 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 06:02:37.575 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 06:02:40.587 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2020-02-27 06:02:43.595 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2020-02-27 06:02:46.607 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2020-02-27 06:02:49.615 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2020-02-27 06:02:52.627 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2020-02-27 06:02:55.635 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2020-02-27 06:02:58.647 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2020-02-27 06:03:01.655 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2020-02-27 06:03:04.667 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2020-02-27 06:03:07.675 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2020-02-27 06:03:10.687 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2020-02-27 06:03:13.695 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2020-02-27 06:03:19.715 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2020-02-27 06:03:22.727 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2020-02-27 06:03:25.735 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+slurmstepd: error: *** STEP 28364413.0 ON nid12707 CANCELLED AT 2020-02-27T07:12:14 DUE TO TIME LIMIT ***
+2020-02-27 07:12:14.985 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2020-02-27 07:12:14.985 [IPControllerApp] CRITICAL | terminating children...
+srun: got SIGCONT
+srun: forcing job termination

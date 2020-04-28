@@ -1,0 +1,8 @@
+[+] ------START TIME (ST): Wed Oct  2 17:41:29 PDT 2019------
+Start cluster...
+Python 3.6.9 :: Anaconda, Inc.
+Traceback (most recent call last):
+  File "test_ipyparallel.py", line 8, in <module>
+    import ipyparallel as ipp
+ImportError: No module named ipyparallel
+[+] ------END TIME (ET) Wed Oct  2 17:42:30 PDT 2019------
